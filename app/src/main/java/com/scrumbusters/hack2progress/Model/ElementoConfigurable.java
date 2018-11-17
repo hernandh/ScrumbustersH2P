@@ -9,9 +9,10 @@ public abstract class ElementoConfigurable {
     private String icono;
     private boolean heredaConfiguracion;
     boolean isGroup;
-    //private Configuracion config;
+    private Configuracion config;
 
-    public ElementoConfigurable(String nombre, String icono, String descripcion, Grupo grupoPadre, boolean heredaConfiguracion){
+    public ElementoConfigurable(String nombre, String icono, String descripcion, Grupo grupoPadre,
+                                boolean heredaConfiguracion, Configuracion config){
         id = nextIdNumber;
         nextIdNumber++;
 
@@ -20,7 +21,7 @@ public abstract class ElementoConfigurable {
         this.descripcion = descripcion;
         this.grupoPadre = grupoPadre;
         this.heredaConfiguracion = heredaConfiguracion;
-        //this.config = config;
+        this.config = config;
     }
 
     public int getId() {
@@ -61,5 +62,13 @@ public abstract class ElementoConfigurable {
 
     public boolean isGroup(){
         return isGroup;
+    }
+
+    public boolean isHeredaConfiguracion() {
+        return heredaConfiguracion;
+    }
+
+    public void setHeredaConfiguracion(boolean heredaConfiguracion){
+        this.heredaConfiguracion = heredaConfiguracion;
     }
 }

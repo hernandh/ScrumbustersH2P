@@ -10,7 +10,6 @@ public abstract class Configuracion {
         this.plannings = plannigs;
     }
 
-
     public List<Planning> getPlannings(){
         return plannings;
     }
