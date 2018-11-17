@@ -1,6 +1,5 @@
-package com.scrumbusters.hack2progress.tabBar;
+package com.scrumbusters.hack2progress.Views;
 
-import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,12 +12,12 @@ import com.scrumbusters.hack2progress.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link DashBoardFragment.OnFragmentInteractionListener} interface
+ * {@link GruposFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link DashBoardFragment#newInstance} factory method to
+ * Use the {@link GruposFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class DashBoardFragment extends Fragment {
+public class GruposFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +29,7 @@ public class DashBoardFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public DashBoardFragment() {
+    public GruposFragment() {
         // Required empty public constructor
     }
 
@@ -40,11 +39,11 @@ public class DashBoardFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment DashBoardFragment.
+     * @return A new instance of fragment GruposFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static DashBoardFragment newInstance(String param1, String param2) {
-        DashBoardFragment fragment = new DashBoardFragment();
+    public static GruposFragment newInstance(String param1, String param2) {
+        GruposFragment fragment = new GruposFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,14 +58,13 @@ public class DashBoardFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dash_board, container, false);
+        return inflater.inflate(R.layout.fragment_grupos, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
