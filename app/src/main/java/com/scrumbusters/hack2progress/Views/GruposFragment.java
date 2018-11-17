@@ -3,10 +3,16 @@ package com.scrumbusters.hack2progress.Views;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
 
+import com.scrumbusters.hack2progress.Model.Grupo;
 import com.scrumbusters.hack2progress.R;
 
 /**
@@ -26,6 +32,10 @@ public class GruposFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    View rootView;
+    SwipeRefreshLayout mSwipeRefreshLayout;
+    ListView listViewGasolineras;
+    ArrayAdapter<Grupo> adapter;
 
     private OnFragmentInteractionListener mListener;
 
@@ -63,8 +73,22 @@ public class GruposFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+        rootView=inflater.inflate(R.layout.fragment_grupos, container, false);
+        // Swipe and refresh
+        // Al realizarlo lanza la tarea asíncrona de carga de datos
+        mSwipeRefreshLayout = rootView.findViewById(R.id.swiperefresh);
+        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                //refreshList();
+            }
+        });
+        listViewGasolineras = rootView.findViewById(R.id.listViewGrupos);
+        //listViewGasolineras.setAdapter();
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_grupos, container, false);
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

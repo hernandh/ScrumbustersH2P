@@ -3,12 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Views.GruposFragment">
+    tools:context=".Views.GruposFragment"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="-8dp"
+        android:paddingTop="70dp"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="insideInset"
+        android:visibility="visible">
+
+        <ListView
+            android:id="@+id/listViewGrupos"
+            style="@style/Widget.AppCompat.Light.ListView.DropDown"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
 
 </FrameLayout>
