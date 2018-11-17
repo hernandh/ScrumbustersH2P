@@ -7,6 +7,8 @@ public class Grupo extends ElementoConfigurable{
 
     public Grupo(String nombre, String icono, String descripcion, Grupo grupoPadre, boolean heredaConfiguracion) {
         super(nombre, icono, descripcion, grupoPadre, heredaConfiguracion);
+
+        isGroup = true;
     }
 
     public List<ElementoConfigurable> getListaElementos() {

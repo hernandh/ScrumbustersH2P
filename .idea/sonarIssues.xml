@@ -43,6 +43,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Presenter/PresenterElementoConfigurable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Views/MainActivity.java">
           <value>
             <set />
