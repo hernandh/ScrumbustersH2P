@@ -11,10 +11,12 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -42,9 +44,14 @@ public class GruposFragment extends Fragment {
     private String mParam1;
     private String mParam2;
     View rootView;
+
+    PresenterElementoConfigurable presenterElementoConfigurable;
+    private Button button;
     SwipeRefreshLayout mSwipeRefreshLayout;
     ListView listViewGrupos;
     ArrayAdapter<ElementoConfigurable> adapter;
+    AlertDialog.Builder masDialog;
+    ArrayAdapter<String> arrayAdapter;
 
     private OnFragmentInteractionListener mListener;
 
@@ -78,6 +85,24 @@ public class GruposFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+
+        rootView=inflater.inflate(R.layout.fragment_grupos, container, false);
+        // Swipe and refresh
+        // Al realizarlo lanza la tarea asíncrona de carga de datos
+        mSwipeRefreshLayout = rootView.findViewById(R.id.swiperefresh);
+        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                //refreshList();
+                adapter = new ElementoConfigurableArrayAdapter(getContext(), 0, presenterElementoConfigurable.getGruposRaiz());
+            }
+        });
         PresenterElementoConfigurable presenterElementoConfigurable = new PresenterElementoConfigurable();
 
         presenterElementoConfigurable.createGrupo("Grupo 1","" ,"Descripción",
@@ -95,74 +120,23 @@ public class GruposFragment extends Fragment {
 
 
         adapter = new ElementoConfigurableArrayAdapter(getContext(), 0, presenterElementoConfigurable.getGruposRaiz());
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-
-
-        rootView=inflater.inflate(R.layout.fragment_grupos, container, false);
-        // Swipe and refresh
-        // Al realizarlo lanza la tarea asíncrona de carga de datos
-        mSwipeRefreshLayout = rootView.findViewById(R.id.swiperefresh);
-        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                //refreshList();
-            }
-        });
-        AlertDialog.Builder builderSingle = new AlertDialog.Builder(getContext());
-        builderSingle.setTitle("Elige una accion");
-
-        final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.select_dialog_singlechoice);
+        arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.select_dialog_singlechoice);
         arrayAdapter.add("Añade un grupo");
         arrayAdapter.add("Añade un dispositivo");
 
-        builderSingle.setNegativeButton("cancel", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                switch (which){
-                    case 0:
-                        Intent myIntent = new Intent(getContext(), anadirGrupoActivity.class);
-                        startActivity(myIntent);
-                        break;
-                    case 1:
+        AlertDialog.Builder masDialog = new AlertDialog.Builder(getContext());
+        masDialog.setTitle("Elige una accion");
+        masDialog.setNegativeButton(R.string.cancel, null);
 
-                        break;
-                    default:
-                        break;
-                }
-                dialog.dismiss();
-            }
-        });
-
-        builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                String strName = arrayAdapter.getItem(which);
-                AlertDialog.Builder builderInner = new AlertDialog.Builder(getContext());
-                builderInner.setMessage(strName);
-                builderInner.setTitle("Your Selected Item is");
-                builderInner.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog,int which) {
-                        dialog.dismiss();
-                    }
-                });
-                builderInner.show();
-            }
-        });
-        builderSingle.show();
         //listViewGasolineras.setAdapter();
         listViewGrupos = rootView.findViewById(R.id.listViewGrupos);
-        //listViewGrupos.setAdapter();
+        listViewGrupos.setAdapter(adapter);
         // Inflate the layout for this fragment
         FloatingActionButton fab = rootView.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                dialogMas();
             }
         });
         return rootView;
@@ -201,6 +175,28 @@ public class GruposFragment extends Fragment {
         //protected ImageView logo;
         protected TextView nombre;
         protected TextView descripcion;
+    }
+
+    public void dialogMas() {
+        masDialog.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case 0:
+                        Intent myIntent = new Intent(getContext(), anadirGrupoActivity.class);
+                        startActivity(myIntent);
+                        break;
+                    case 1:
+
+                        break;
+                    default:
+                        break;
+                }
+                dialog.cancel();
+            }
+        });
+        masDialog.create();
+        masDialog.show();
     }
 
     class ElementoConfigurableArrayAdapter extends ArrayAdapter<ElementoConfigurable> {

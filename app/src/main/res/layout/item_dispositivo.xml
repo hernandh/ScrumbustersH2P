@@ -17,11 +17,17 @@
         android:layout_height="wrap_content"
         android:paddingRight="10dp">
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:srcCompat="@mipmap/ic_launcher" />
+
         <TextView
             android:id="@+id/textViewNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="false"
+            android:layout_alignParentTop="true"
             android:layout_marginLeft="@dimen/marginTextView"
             android:layout_marginTop="@dimen/marginLabelsPrecio"
             android:textSize="8sp"

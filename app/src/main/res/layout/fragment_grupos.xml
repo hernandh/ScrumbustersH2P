@@ -21,18 +21,18 @@
         <ListView
             android:id="@+id/listViewGrupos"
             style="@style/Widget.AppCompat.Light.ListView.DropDown"
-
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:theme="@style/AppTheme.NoActionBar" />
 
     </android.support.v4.widget.SwipeRefreshLayout>
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
-        android:src="@android:drawable/ic_menu_add"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_add" />
 
 </FrameLayout>

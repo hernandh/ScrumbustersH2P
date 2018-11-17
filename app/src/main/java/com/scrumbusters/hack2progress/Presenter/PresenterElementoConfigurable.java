@@ -26,7 +26,7 @@ public class PresenterElementoConfigurable {
         for (ElementoConfigurable e : elementos.values()){
             Grupo padre = e.getGrupoPadre();
             if(padre == null){
-                gruposRaiz.add(padre);
+                gruposRaiz.add(e);
             }
         }
 
