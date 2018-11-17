@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 640">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Estadísticas_Comparación_-_Personal);
+      }
+
+      .cls-2 {
+        fill: #673ab7;
+      }
+
+      .cls-11, .cls-3 {
+        fill: none;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-10, .cls-12, .cls-14, .cls-16, .cls-18, .cls-4, .cls-8, .cls-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-6 {
+        fill: #512da8;
+      }
+
+      .cls-7 {
+        opacity: 0.9;
+      }
+
+      .cls-10, .cls-12, .cls-14, .cls-18, .cls-8, .cls-9 {
+        font-size: 14px;
+      }
+
+      .cls-9 {
+        fill: rgba(255,255,255,0.7);
+      }
+
+      .cls-10, .cls-9 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-11 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-12 {
+        fill: rgba(0,0,0,0.54);
+      }
+
+      .cls-13 {
+        opacity: 0.54;
+      }
+
+      .cls-14, .cls-16 {
+        fill: rgba(0,0,0,0.87);
+      }
+
+      .cls-15 {
+        fill: rgba(0,0,0,0.12);
+      }
+
+      .cls-16 {
+        font-size: 16px;
+      }
+
+      .cls-17 {
+        fill: url(#pattern);
+      }
+
+      .cls-18 {
+        fill: rgba(0,0,0,0.38);
+      }
+
+      .cls-19, .cls-20, .cls-21 {
+        stroke: #707070;
+      }
+
+      .cls-19 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-20 {
+        fill: url(#pattern-3);
+      }
+
+      .cls-21 {
+        fill: url(#pattern-4);
+      }
+
+      .cls-22 {
+        fill: rgba(28,191,16,0.87);
+      }
+
+      .cls-23 {
+        fill: rgba(246,0,0,0.87);
+      }
+
+      .cls-24 {
+        fill: rgba(4,175,10,0.87);
+      }
+
+      .cls-25 {
+        stroke: none;
+      }
+
+      .cls-26 {
+        filter: url(#Tool_bar_bg-2);
+      }
+
+      .cls-27 {
+        filter: url(#Tool_bar_bg);
+      }
+    </style>
+    <filter id="Tool_bar_bg" x="-6" y="-6" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tool_bar_bg-2" x="-6" y="-2" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="../../Downloads/icons8-living-room-filled-100.png"/>
+    </pattern>
+    <pattern id="pattern-2" width="1" height="1" viewBox="-3.827 -48.234 54.654 53.491">
+      <image preserveAspectRatio="xMidYMid slice" width="47" height="47" xlink:href="../../Downloads/icons8-living-room-filled-50.png"/>
+    </pattern>
+    <pattern id="pattern-3" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="../../Downloads/icons8-dining-room-filled-100.png"/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="../../Downloads/icons8-kitchen-filled-100.png"/>
+    </pattern>
+    <clipPath id="clip-Estadísticas_Comparación_-_Personal">
+      <rect width="360" height="640"/>
+    </clipPath>
+    <image id="image" width="52" height="52" xlink:href="../../Downloads/icons8-happy-100.png"/>
+  </defs>
+  <g id="Estadísticas_Comparación_-_Personal" data-name="Estadísticas – Comparación - Personal" class="cls-1">
+    <rect class="cls-5" width="360" height="640"/>
+    <g id="_1" data-name="#1">
+      <g id="Tool_bar" data-name="Tool bar">
+        <g id="Tool_bar_bg-3" data-name="Tool bar bg">
+          <g class="cls-27" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-4" data-name="Tool bar bg" class="cls-2" d="M360,0H0V80H360Z"/>
+          </g>
+          <g class="cls-26" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-5" data-name="Tool bar bg" class="cls-2" d="M360,0H0V80H360Z"/>
+          </g>
+        </g>
+        <g id="Tool_bar_contents" data-name="Tool bar contents" transform="translate(16 40)">
+          <path id="Bounds" class="cls-3" d="M360,0H0V56H360Z" transform="translate(-16 -16)"/>
+          <text id="NombreApp" class="cls-4" transform="translate(56 19)"><tspan x="0" y="0">NombreApp</tspan></text>
+          <g id="Burger_Button" data-name="Burger Button" transform="translate(0 -1)">
+            <rect id="Bounds-2" data-name="Bounds" class="cls-3" width="24" height="24"/>
+            <path id="Icon" class="cls-5" d="M3,18H21V16H3v2Zm0-5H21V11H3v2ZM3,6V8H21V6Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="Status_bar" data-name="Status bar">
+        <rect id="Status_bar_bg" data-name="Status bar bg" class="cls-6" width="360" height="24"/>
+        <g id="Status_bar-2" data-name="Status bar">
+          <rect id="Bounds-3" data-name="Bounds" class="cls-3" width="118" height="24" transform="translate(242)"/>
+          <g id="Time" class="cls-7" transform="translate(316 4)">
+            <text id="_12:30" data-name="12:30" class="cls-8" transform="translate(0.46 13)"><tspan x="0" y="0">12:30</tspan></text>
+          </g>
+          <g id="Battery" transform="translate(297 4)">
+            <path id="Bounds-4" data-name="Bounds" class="cls-3" d="M0,0H16V16H0Z"/>
+            <path id="Shape" class="cls-5" d="M9,1.9V1H6v.9H3V15h9V1.9Z"/>
+          </g>
+          <g id="Cellular" transform="translate(277 4)">
+            <path id="Bounds-5" data-name="Bounds" class="cls-3" d="M0,0H16V16H0Z"/>
+            <path id="Shape-2" data-name="Shape" class="cls-5" d="M0,15H14V1Z"/>
+          </g>
+          <g id="Wifi" transform="translate(256 4)">
+            <path id="Bounds-6" data-name="Bounds" class="cls-3" d="M2,0H18V16H2Z"/>
+            <path id="Shape-3" data-name="Shape" class="cls-5" d="M19,4a14.76,14.76,0,0,0-9-3A14.76,14.76,0,0,0,1,4l9,11Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="_1-2" data-name="#1" transform="translate(0 80)">
+      <rect id="Bounds-7" data-name="Bounds" class="cls-2" width="360" height="48"/>
+      <text id="LOCAL" class="cls-9" transform="translate(163.958 30)"><tspan x="-20.757" y="0">LOCAL</tspan></text>
+      <text id="PERSONAL" class="cls-10" transform="translate(60.285 30)"><tspan x="-34.181" y="0">PERSONAL</tspan></text>
+      <rect id="Indicator" class="cls-5" width="120" height="2" transform="translate(0 46)"/>
+      <text id="NACIONAL" class="cls-9" transform="translate(241.958 30)"><tspan x="-34.625" y="0">NACIONAL</tspan></text>
+    </g>
+    <g id="Navbar">
+      <rect id="Navbar_bg" data-name="Navbar bg" width="360" height="48" transform="translate(0 592)"/>
+      <g id="Recent" transform="translate(231 592)">
+        <rect id="Bounds-8" data-name="Bounds" class="cls-3" width="100" height="48"/>
+        <path id="Recent-2" data-name="Recent" class="cls-11" d="M44,16H56a2.006,2.006,0,0,1,2,2V30a2.006,2.006,0,0,1-2,2H44a2.006,2.006,0,0,1-2-2V18A2.006,2.006,0,0,1,44,16Z"/>
+      </g>
+      <g id="Home" transform="translate(130 592)">
+        <rect id="Bounds-9" data-name="Bounds" class="cls-3" width="100" height="48"/>
+        <circle id="Home-2" data-name="Home" class="cls-11" cx="8" cy="8" r="8" transform="translate(42 16)"/>
+      </g>
+      <g id="Back" transform="translate(29 592)">
+        <rect id="Bounds-10" data-name="Bounds" class="cls-3" width="100" height="48"/>
+        <path id="Back-2" data-name="Back" class="cls-11" d="M56.3,15.2c1-.6,1.7-.1,1.7,1V30.7c0,1.1-.8,1.6-1.7,1L43.8,24.4c-1-.6-1-1.4,0-2Z"/>
+      </g>
+    </g>
+    <text id="GLOBAL" class="cls-9" transform="translate(318.958 110)"><tspan x="-25.308" y="0">GLOBAL</tspan></text>
+    <g id="Subheader" transform="translate(-12 269)">
+      <rect id="Bounds-11" data-name="Bounds" class="cls-3" width="360" height="48" transform="translate(0 -136)"/>
+      <text id="Comparar" class="cls-12" transform="translate(16 -108)"><tspan x="0" y="0">Comparar</tspan></text>
+    </g>
+    <text id="con" class="cls-12" transform="translate(193 163)"><tspan x="0" y="0">con</tspan></text>
+    <g id="Short_Light" data-name="Short Light" transform="translate(71.359 134)">
+      <rect id="Bounds-12" data-name="Bounds" class="cls-5" width="117.652" height="48"/>
+      <g id="Expand_more_" data-name="Expand more " transform="translate(83.652 12)">
+        <rect id="Bounds-13" data-name="Bounds" class="cls-3" width="24" height="24"/>
+        <path id="Icon-2" data-name="Icon" class="cls-13" d="M16.6,8.6,12,13.2,7.4,8.6,6,10l6,6,6-6Z"/>
+      </g>
+      <text id="Este_mes" data-name="Este mes" class="cls-14" transform="translate(18.957 29)"><tspan x="0" y="0">Este mes</tspan></text>
+    </g>
+    <g id="Short_Light-2" data-name="Short Light" transform="translate(228.5 134)">
+      <rect id="Bounds-14" data-name="Bounds" class="cls-5" width="126.955" height="48"/>
+      <g id="Expand_more_2" data-name="Expand more " transform="translate(92.955 12)">
+        <rect id="Bounds-15" data-name="Bounds" class="cls-3" width="24" height="24"/>
+        <path id="Icon-3" data-name="Icon" class="cls-13" d="M16.6,8.6,12,13.2,7.4,8.6,6,10l6,6,6-6Z"/>
+      </g>
+      <text id="Mes_anterior" data-name="Mes anterior" class="cls-14" transform="translate(1.746 30)"><tspan x="0" y="0">Mes anterior</tspan></text>
+    </g>
+    <g id="_3" data-name="#3" transform="translate(0 352)">
+      <rect id="Row_bounds" data-name="Row bounds" class="cls-3" width="360" height="88"/>
+      <rect id="Divider" class="cls-15" width="288" height="1" transform="translate(72 86)"/>
+      <text id="Consumido:_14_2_KW_" data-name="Consumido: 14,2 KW " class="cls-14" transform="translate(72 46)"><tspan x="0" y="0">Consumido: 14,2 KW </tspan></text>
+      <text id="Cocina_4_dispositivos_" data-name="Cocina (4 dispositivos)" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">Cocina (4 dispositivos)</tspan></text>
+    </g>
+    <g id="_2" data-name="#2" transform="translate(0 264)">
+      <rect id="Row_bounds-2" data-name="Row bounds" class="cls-3" width="360" height="88"/>
+      <rect id="Divider-2" data-name="Divider" class="cls-15" width="288" height="1" transform="translate(72 86)"/>
+      <text id="Consumido:_50_5_KW_" data-name="Consumido: 50,5 KW " class="cls-14" transform="translate(72 47)"><tspan x="0" y="0">Consumido: 50,5 KW </tspan></text>
+      <text id="Comedor_2_dispositivos_" data-name="Comedor (2 dispositivos)" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">Comedor (2 dispositivos)</tspan></text>
+      <circle id="Userpic" class="cls-17" cx="20" cy="20" r="20" transform="translate(18 -72)"/>
+    </g>
+    <g id="_1-3" data-name="#1" transform="translate(0 176)">
+      <rect id="Row_bounds_" data-name="Row bounds " class="cls-3" width="360" height="88"/>
+      <rect id="Divider-3" data-name="Divider" class="cls-15" width="288" height="1" transform="translate(72 86)"/>
+      <text id="_" data-name="                                  " class="cls-18" transform="translate(72 46)"><tspan x="0" y="0" xml:space="preserve">                                  </tspan></text>
+      <text id="Consumido:_44_5_KW_" data-name="Consumido: 44,5 KW " class="cls-14" transform="translate(72 46)"><tspan x="0" y="0">Consumido: 44,5 KW </tspan></text>
+      <text id="Salón_12_dispositivos_" data-name="Salón (12 dispositivos)" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">Salón (12 dispositivos)</tspan></text>
+    </g>
+    <g id="icons8-living-room-filled-50" class="cls-19" transform="translate(14 187)">
+      <ellipse class="cls-25" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-3" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="icons8-dining-room-filled-100" class="cls-20" transform="translate(14 272)">
+      <ellipse class="cls-25" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-3" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="icons8-kitchen-filled-100" class="cls-21" transform="translate(14 361)">
+      <ellipse class="cls-25" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-3" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <text id="Ahorrado:_10_2_" data-name="Ahorrado: 10,2€ " class="cls-14" transform="translate(71 243)"><tspan x="0" y="0">Ahorrado: </tspan><tspan class="cls-22" y="0">10,2</tspan><tspan y="0">€ </tspan></text>
+    <text id="Ahorrado:_-14_3_" data-name="Ahorrado: -14,3€ " class="cls-14" transform="translate(71 333)"><tspan x="0" y="0">Ahorrado: </tspan><tspan class="cls-23" y="0">-14,3</tspan><tspan y="0">€ </tspan></text>
+    <text id="Ahorrado:_4_3_" data-name="Ahorrado: 4,3€ " class="cls-14" transform="translate(72 423)"><tspan x="0" y="0">Ahorrado: </tspan><tspan class="cls-24" y="0">4,3</tspan><tspan y="0">€ </tspan></text>
+    <use id="icons8-happy-100" transform="translate(279 192)" xlink:href="#image"/>
+    <image id="icons8-sad-100" width="50" height="50" transform="translate(281 283)" xlink:href="../../Downloads/icons8-sad-100.png"/>
+    <use id="icons8-happy-100-2" data-name="icons8-happy-100" transform="translate(281 372)" xlink:href="#image"/>
+  </g>
+</svg>

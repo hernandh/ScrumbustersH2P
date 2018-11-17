@@ -1,0 +1,352 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 640">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Perfiles_lista_de_selección_de_dispositivos_y_grupos);
+      }
+
+      .cls-17, .cls-18, .cls-19, .cls-2, .cls-21, .cls-22 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: url(#pattern);
+      }
+
+      .cls-3 {
+        fill: #673ab7;
+      }
+
+      .cls-10, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5, .cls-6, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 20px;
+      }
+
+      .cls-11, .cls-12, .cls-14, .cls-15, .cls-16, .cls-25, .cls-5, .cls-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-7 {
+        fill: #512da8;
+      }
+
+      .cls-8 {
+        opacity: 0.9;
+      }
+
+      .cls-11, .cls-12, .cls-14, .cls-15, .cls-25, .cls-9 {
+        font-size: 14px;
+      }
+
+      .cls-10 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-11 {
+        fill: rgba(255,255,255,0.7);
+      }
+
+      .cls-11, .cls-25 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-12 {
+        fill: rgba(0,0,0,0.54);
+      }
+
+      .cls-13 {
+        fill: rgba(0,0,0,0.12);
+      }
+
+      .cls-14 {
+        fill: rgba(0,0,0,0.38);
+      }
+
+      .cls-15, .cls-16, .cls-25 {
+        fill: rgba(0,0,0,0.87);
+      }
+
+      .cls-16 {
+        font-size: 16px;
+      }
+
+      .cls-17 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-18 {
+        fill: url(#pattern-3);
+      }
+
+      .cls-19 {
+        fill: url(#pattern-4);
+      }
+
+      .cls-20 {
+        fill: url(#pattern-5);
+      }
+
+      .cls-21 {
+        fill: url(#pattern-6);
+      }
+
+      .cls-22 {
+        fill: url(#pattern-7);
+      }
+
+      .cls-23 {
+        fill: #d1d3d4;
+      }
+
+      .cls-24 {
+        fill: #e0e0e0;
+      }
+
+      .cls-26 {
+        fill: url(#pattern-8);
+      }
+
+      .cls-27 {
+        stroke: none;
+      }
+
+      .cls-28 {
+        filter: url(#Button_bg-2);
+      }
+
+      .cls-29 {
+        filter: url(#Button_bg);
+      }
+
+      .cls-30 {
+        filter: url(#Tool_bar_bg-2);
+      }
+
+      .cls-31 {
+        filter: url(#Tool_bar_bg);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="../../Downloads/icons8-kitchen-filled-100.png"/>
+    </pattern>
+    <filter id="Tool_bar_bg" x="-6" y="-6" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tool_bar_bg-2" x="-6" y="-2" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="../../Downloads/icons8-light-on-filled-100.png"/>
+    </pattern>
+    <pattern id="pattern-3" width="1" height="1" viewBox="-8.756 -8.07 64.512 63.14">
+      <image preserveAspectRatio="xMidYMid slice" width="47" height="47" xlink:href="../../Downloads/icons8-tv-100.png"/>
+    </pattern>
+    <pattern id="pattern-4" width="1" height="1" viewBox="-8.019 -7.348 63.038 61.697">
+      <image preserveAspectRatio="xMidYMid slice" width="47" height="47" xlink:href="../../Downloads/icons8-monitor-filled-100.png"/>
+    </pattern>
+    <pattern id="pattern-5" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="../../Downloads/icons8-living-room-filled-100.png"/>
+    </pattern>
+    <pattern id="pattern-6" width="1" height="1" viewBox="-3.827 -48.234 54.654 53.491">
+      <image preserveAspectRatio="xMidYMid slice" width="47" height="47" xlink:href="../../Downloads/icons8-living-room-filled-50.png"/>
+    </pattern>
+    <pattern id="pattern-7" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="../../Downloads/icons8-dining-room-filled-100.png"/>
+    </pattern>
+    <filter id="Button_bg" x="249" y="541" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-2" x="249" y="543" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-8" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 80 80">
+      <image width="80" height="80" xlink:href="../../Downloads/icons8-checkmark-80.png"/>
+    </pattern>
+    <clipPath id="clip-Perfiles_lista_de_selección_de_dispositivos_y_grupos">
+      <rect width="360" height="640"/>
+    </clipPath>
+    <image id="image" width="27" height="27" xlink:href="../../Downloads/icons8-checkmark-80.png"/>
+  </defs>
+  <g id="Perfiles_lista_de_selección_de_dispositivos_y_grupos" data-name="Perfiles – lista de selección de dispositivos y grupos" class="cls-1">
+    <rect class="cls-6" width="360" height="640"/>
+    <g id="icons8-kitchen-filled-100" class="cls-2" transform="translate(14 571)">
+      <ellipse class="cls-27" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-4" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="_1" data-name="#1">
+      <g id="Tool_bar" data-name="Tool bar">
+        <g id="Tool_bar_bg-3" data-name="Tool bar bg">
+          <g class="cls-31" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-4" data-name="Tool bar bg" class="cls-3" d="M360,0H0V80H360Z"/>
+          </g>
+          <g class="cls-30" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-5" data-name="Tool bar bg" class="cls-3" d="M360,0H0V80H360Z"/>
+          </g>
+        </g>
+        <g id="Tool_bar_contents" data-name="Tool bar contents" transform="translate(16 40)">
+          <path id="Bounds" class="cls-4" d="M360,0H0V56H360Z" transform="translate(-16 -16)"/>
+          <text id="NombreApp" class="cls-5" transform="translate(56 19)"><tspan x="0" y="0">NombreApp</tspan></text>
+          <g id="Burger_Button" data-name="Burger Button" transform="translate(0 -1)">
+            <rect id="Bounds-2" data-name="Bounds" class="cls-4" width="24" height="24"/>
+            <path id="Icon" class="cls-6" d="M3,18H21V16H3v2Zm0-5H21V11H3v2ZM3,6V8H21V6Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="Status_bar" data-name="Status bar">
+        <rect id="Status_bar_bg" data-name="Status bar bg" class="cls-7" width="360" height="24"/>
+        <g id="Status_bar-2" data-name="Status bar">
+          <rect id="Bounds-3" data-name="Bounds" class="cls-4" width="118" height="24" transform="translate(242)"/>
+          <g id="Time" class="cls-8" transform="translate(316 4)">
+            <text id="_12:30" data-name="12:30" class="cls-9" transform="translate(0.46 13)"><tspan x="0" y="0">12:30</tspan></text>
+          </g>
+          <g id="Battery" transform="translate(297 4)">
+            <path id="Bounds-4" data-name="Bounds" class="cls-4" d="M0,0H16V16H0Z"/>
+            <path id="Shape" class="cls-6" d="M9,1.9V1H6v.9H3V15h9V1.9Z"/>
+          </g>
+          <g id="Cellular" transform="translate(277 4)">
+            <path id="Bounds-5" data-name="Bounds" class="cls-4" d="M0,0H16V16H0Z"/>
+            <path id="Shape-2" data-name="Shape" class="cls-6" d="M0,15H14V1Z"/>
+          </g>
+          <g id="Wifi" transform="translate(256 4)">
+            <path id="Bounds-6" data-name="Bounds" class="cls-4" d="M2,0H18V16H2Z"/>
+            <path id="Shape-3" data-name="Shape" class="cls-6" d="M19,4a14.76,14.76,0,0,0-9-3A14.76,14.76,0,0,0,1,4l9,11Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Navbar">
+      <rect id="Navbar_bg" data-name="Navbar bg" width="360" height="48" transform="translate(0 592)"/>
+      <g id="Recent" transform="translate(231 592)">
+        <rect id="Bounds-7" data-name="Bounds" class="cls-4" width="100" height="48"/>
+        <path id="Recent-2" data-name="Recent" class="cls-10" d="M44,16H56a2.006,2.006,0,0,1,2,2V30a2.006,2.006,0,0,1-2,2H44a2.006,2.006,0,0,1-2-2V18A2.006,2.006,0,0,1,44,16Z"/>
+      </g>
+      <g id="Home" transform="translate(130 592)">
+        <rect id="Bounds-8" data-name="Bounds" class="cls-4" width="100" height="48"/>
+        <circle id="Home-2" data-name="Home" class="cls-10" cx="8" cy="8" r="8" transform="translate(42 16)"/>
+      </g>
+      <g id="Back" transform="translate(29 592)">
+        <rect id="Bounds-9" data-name="Bounds" class="cls-4" width="100" height="48"/>
+        <path id="Back-2" data-name="Back" class="cls-10" d="M56.3,15.2c1-.6,1.7-.1,1.7,1V30.7c0,1.1-.8,1.6-1.7,1L43.8,24.4c-1-.6-1-1.4,0-2Z"/>
+      </g>
+    </g>
+    <text id="GLOBAL" class="cls-11" transform="translate(318.958 110)"><tspan x="-25.308" y="0">GLOBAL</tspan></text>
+    <g id="Subheader" transform="translate(0 217)">
+      <rect id="Bounds-10" data-name="Bounds" class="cls-4" width="360" height="48" transform="translate(0 -136)"/>
+      <text id="Perfiles" class="cls-12" transform="translate(16 -108)"><tspan x="0" y="0">Perfiles</tspan></text>
+    </g>
+    <g id="_1-2" data-name="#1" transform="translate(0 122)">
+      <rect id="Row_bounds_" data-name="Row bounds " class="cls-4" width="360" height="88"/>
+      <rect id="Divider" class="cls-13" width="288" height="1" transform="translate(72 86)"/>
+      <text id="_" data-name="                         " class="cls-14" transform="translate(72 46)"><tspan x="0" y="0" xml:space="preserve">                         </tspan></text>
+      <text id="Bajo_consumo" data-name="Bajo consumo" class="cls-15" transform="translate(73 46)"><tspan x="0" y="0">Bajo consumo</tspan></text>
+      <text id="Bombilla_1" data-name="Bombilla #1" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">Bombilla #1</tspan></text>
+    </g>
+    <g id="icons8-light-on-filled-100" class="cls-17" transform="translate(17 129)">
+      <ellipse class="cls-27" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-4" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="_1-3" data-name="#1" transform="translate(0 210)">
+      <rect id="Row_bounds_2" data-name="Row bounds " class="cls-4" width="360" height="88"/>
+      <rect id="Divider-2" data-name="Divider" class="cls-13" width="288" height="1" transform="translate(72 86)"/>
+      <text id="Consumo_medio" data-name="Consumo medio" class="cls-15" transform="translate(73 46)"><tspan x="0" y="0">Consumo medio</tspan></text>
+      <text id="TV" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">TV</tspan></text>
+    </g>
+    <g id="_1-4" data-name="#1" transform="translate(0 299)">
+      <rect id="Row_bounds_3" data-name="Row bounds " class="cls-4" width="360" height="88"/>
+      <rect id="Divider-3" data-name="Divider" class="cls-13" width="288" height="1" transform="translate(72 86)"/>
+      <text id="_2" data-name="                            " class="cls-14" transform="translate(72 46)"><tspan x="0" y="0" xml:space="preserve">                            </tspan></text>
+      <text id="Consumo_medio-2" data-name="Consumo medio" class="cls-15" transform="translate(73 46)"><tspan x="0" y="0">Consumo medio</tspan></text>
+      <text id="PC_-_Julio" data-name="PC - Julio" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">PC - Julio</tspan></text>
+    </g>
+    <g id="icons8-tv-100" class="cls-18" transform="translate(17 220)">
+      <ellipse class="cls-27" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-4" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="icons8-monitor-filled-100" class="cls-19" transform="translate(17 305)">
+      <ellipse class="cls-27" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-4" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="_3" data-name="#3" transform="translate(0 562)">
+      <rect id="Row_bounds" data-name="Row bounds" class="cls-4" width="360" height="88"/>
+      <rect id="Divider-4" data-name="Divider" class="cls-13" width="288" height="1" transform="translate(72 86)"/>
+      <text id="_Un_lugar_lleno_de_magia." data-name="                        — Un lugar lleno de magia." class="cls-14" transform="translate(72 46)"><tspan x="0" y="0" xml:space="preserve">                        — Un lugar lleno de magia.</tspan></text>
+      <text id="_4_dispositivos" data-name="4 dispositivos" class="cls-15" transform="translate(72 46)"><tspan x="0" y="0">4 dispositivos</tspan></text>
+      <text id="Cocina" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">Cocina</tspan></text>
+    </g>
+    <g id="_2-2" data-name="#2" transform="translate(0 474)">
+      <rect id="Row_bounds-2" data-name="Row bounds" class="cls-4" width="360" height="88"/>
+      <rect id="Divider-5" data-name="Divider" class="cls-13" width="288" height="1" transform="translate(72 86)"/>
+      <text id="_2_dispositivos" data-name="2 dispositivos" class="cls-15" transform="translate(72 46)"><tspan x="0" y="0">2 dispositivos</tspan></text>
+      <text id="Comedor" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">Comedor</tspan></text>
+      <circle id="Userpic" class="cls-20" cx="20" cy="20" r="20" transform="translate(18 -72)"/>
+    </g>
+    <g id="_1-5" data-name="#1" transform="translate(0 386)">
+      <rect id="Row_bounds_4" data-name="Row bounds " class="cls-4" width="360" height="88"/>
+      <rect id="Divider-6" data-name="Divider" class="cls-13" width="288" height="1" transform="translate(72 86)"/>
+      <text id="_3-2" data-name="                        " class="cls-14" transform="translate(72 46)"><tspan x="0" y="0" xml:space="preserve">                        </tspan></text>
+      <text id="_12_dispositivos" data-name="12 dispositivos" class="cls-15" transform="translate(72 46)"><tspan x="0" y="0">12 dispositivos</tspan></text>
+      <text id="Salón" class="cls-16" transform="translate(73 28)"><tspan x="0" y="0">Salón</tspan></text>
+    </g>
+    <g id="icons8-living-room-filled-50" class="cls-21" transform="translate(14 397)">
+      <ellipse class="cls-27" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-4" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="icons8-dining-room-filled-100" class="cls-22" transform="translate(14 482)">
+      <ellipse class="cls-27" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-4" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <g id="Blank_Icon" data-name="Blank Icon" transform="translate(311 142)">
+      <rect id="Icon-2" data-name="Icon" class="cls-23" width="24" height="24"/>
+    </g>
+    <g id="Blank_Icon-2" data-name="Blank Icon" transform="translate(311 235)">
+      <rect id="Icon-3" data-name="Icon" class="cls-23" width="24" height="24"/>
+    </g>
+    <g id="Blank_Icon-3" data-name="Blank Icon" transform="translate(311 322)">
+      <rect id="Icon-4" data-name="Icon" class="cls-23" width="24" height="24"/>
+    </g>
+    <g id="Blank_Icon-4" data-name="Blank Icon" transform="translate(311 419)">
+      <rect id="Icon-5" data-name="Icon" class="cls-23" width="24" height="24"/>
+    </g>
+    <g id="Blank_Icon-5" data-name="Blank Icon" transform="translate(311 504)">
+      <rect id="Icon-6" data-name="Icon" class="cls-23" width="24" height="24"/>
+    </g>
+    <g id="Raised_Normal" data-name="Raised Normal" transform="translate(91 484)">
+      <g id="Button_bg-3" data-name="Button bg" transform="translate(161 60)">
+        <g class="cls-29" transform="matrix(1, 0, 0, 1, -252, -544)">
+          <path id="Button_bg-4" data-name="Button bg" class="cls-24" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(252 544)"/>
+        </g>
+        <g class="cls-28" transform="matrix(1, 0, 0, 1, -252, -544)">
+          <path id="Button_bg-5" data-name="Button bg" class="cls-24" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(252 544)"/>
+        </g>
+      </g>
+      <text id="CONTINUAR" class="cls-25" transform="translate(205.443 83)"><tspan x="-39.327" y="0">CONTINUAR</tspan></text>
+    </g>
+    <use id="icons8-checkmark-80" transform="translate(313 320)" xlink:href="#image"/>
+    <use id="icons8-checkmark-80-2" data-name="icons8-checkmark-80" transform="translate(311 232)" xlink:href="#image"/>
+    <rect id="icons8-checkmark-80-3" data-name="icons8-checkmark-80" class="cls-26" width="27" height="27" rx="13.5" transform="translate(313 503)"/>
+  </g>
+</svg>

@@ -1,0 +1,454 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 640">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Crear_configuración_Seleccionar_hora);
+      }
+
+      .cls-2 {
+        fill: #673ab7;
+      }
+
+      .cls-24, .cls-3, .cls-9 {
+        fill: none;
+      }
+
+      .cls-14, .cls-4, .cls-5, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-16, .cls-17, .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-10, .cls-12, .cls-15, .cls-16, .cls-17, .cls-20, .cls-21, .cls-27, .cls-29, .cls-30, .cls-4, .cls-8 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-6 {
+        fill: #512da8;
+      }
+
+      .cls-7 {
+        opacity: 0.9;
+      }
+
+      .cls-10, .cls-12, .cls-20, .cls-28, .cls-8 {
+        font-size: 14px;
+      }
+
+      .cls-9 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-10, .cls-15 {
+        fill: rgba(0,0,0,0.54);
+      }
+
+      .cls-11 {
+        fill: #e0e0e0;
+      }
+
+      .cls-12, .cls-27 {
+        fill: rgba(0,0,0,0.87);
+      }
+
+      .cls-12 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-13 {
+        fill: #2a56c6;
+        stroke: rgba(255,255,255,0.12);
+      }
+
+      .cls-13, .cls-14, .cls-18, .cls-24 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-14, .cls-18 {
+        stroke: rgba(255,255,255,0.8);
+      }
+
+      .cls-15 {
+        font-size: 12px;
+      }
+
+      .cls-16, .cls-17 {
+        fill: rgba(0,0,0,0.85);
+      }
+
+      .cls-16 {
+        opacity: 0.81;
+      }
+
+      .cls-18, .cls-19 {
+        fill: #f2f2f2;
+      }
+
+      .cls-20, .cls-28, .cls-29, .cls-30 {
+        letter-spacing: 0.005em;
+      }
+
+      .cls-21 {
+        fill: rgba(0,0,0,0.38);
+        font-size: 16px;
+      }
+
+      .cls-22 {
+        fill: rgba(51,181,229,0.2);
+      }
+
+      .cls-23, .cls-29 {
+        fill: #33b5e5;
+      }
+
+      .cls-24 {
+        stroke: #33b5e5;
+        stroke-linecap: square;
+      }
+
+      .cls-25, .cls-28, .cls-30 {
+        fill: #8c8c8c;
+      }
+
+      .cls-26 {
+        opacity: 0.5;
+      }
+
+      .cls-27 {
+        font-size: 19px;
+      }
+
+      .cls-28 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-29, .cls-30 {
+        font-size: 60px;
+      }
+
+      .cls-31 {
+        filter: url(#Button_strip_bounds);
+      }
+
+      .cls-32 {
+        filter: url(#Base-2);
+      }
+
+      .cls-33 {
+        filter: url(#Base);
+      }
+
+      .cls-34 {
+        filter: url(#Card_bg-2);
+      }
+
+      .cls-35 {
+        filter: url(#Card_bg);
+      }
+
+      .cls-36 {
+        filter: url(#Button_bg-6);
+      }
+
+      .cls-37 {
+        filter: url(#Button_bg-5);
+      }
+
+      .cls-38 {
+        filter: url(#Button_bg-4);
+      }
+
+      .cls-39 {
+        filter: url(#Button_bg-3);
+      }
+
+      .cls-40 {
+        filter: url(#Button_bg-2);
+      }
+
+      .cls-41 {
+        filter: url(#Button_bg);
+      }
+
+      .cls-42 {
+        filter: url(#Tool_bar_bg-2);
+      }
+
+      .cls-43 {
+        filter: url(#Tool_bar_bg);
+      }
+    </style>
+    <filter id="Tool_bar_bg" x="-6" y="-6" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tool_bar_bg-2" x="-6" y="-2" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg" x="29" y="521" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-2" x="29" y="523" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-3" x="241" y="521" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-4" x="241" y="523" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-5" x="266.75" y="434.75" width="74.5" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-6" x="266.75" y="440.75" width="74.5" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card_bg" x="4.75" y="124.75" width="350.5" height="146.678" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card_bg-2" x="4.75" y="126.75" width="350.5" height="146.678" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-10"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base" x="17.75" y="75.75" width="324.5" height="489.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-11"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base-2" x="17.75" y="99.75" width="324.5" height="489.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-12"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_strip_bounds" x="54" y="476" width="252" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-13"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Crear_configuración_Seleccionar_hora">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="Crear_configuración_Seleccionar_hora" data-name="Crear configuración – Seleccionar hora" class="cls-1">
+    <rect class="cls-5" width="360" height="640"/>
+    <g id="_1" data-name="#1">
+      <g id="Tool_bar" data-name="Tool bar">
+        <g id="Tool_bar_bg-3" data-name="Tool bar bg">
+          <g class="cls-43" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-4" data-name="Tool bar bg" class="cls-2" d="M360,0H0V80H360Z"/>
+          </g>
+          <g class="cls-42" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-5" data-name="Tool bar bg" class="cls-2" d="M360,0H0V80H360Z"/>
+          </g>
+        </g>
+        <g id="Tool_bar_contents" data-name="Tool bar contents" transform="translate(16 40)">
+          <path id="Bounds" class="cls-3" d="M360,0H0V56H360Z" transform="translate(-16 -16)"/>
+          <text id="NombreApp" class="cls-4" transform="translate(56 19)"><tspan x="0" y="0">NombreApp</tspan></text>
+          <g id="Burger_Button" data-name="Burger Button" transform="translate(0 -1)">
+            <rect id="Bounds-2" data-name="Bounds" class="cls-3" width="24" height="24"/>
+            <path id="Icon" class="cls-5" d="M3,18H21V16H3v2Zm0-5H21V11H3v2ZM3,6V8H21V6Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="Status_bar" data-name="Status bar">
+        <rect id="Status_bar_bg" data-name="Status bar bg" class="cls-6" width="360" height="24"/>
+        <g id="Status_bar-2" data-name="Status bar">
+          <rect id="Bounds-3" data-name="Bounds" class="cls-3" width="118" height="24" transform="translate(242)"/>
+          <g id="Time" class="cls-7" transform="translate(316 4)">
+            <text id="_12:30" data-name="12:30" class="cls-8" transform="translate(0.46 13)"><tspan x="0" y="0">12:30</tspan></text>
+          </g>
+          <g id="Battery" transform="translate(297 4)">
+            <path id="Bounds-4" data-name="Bounds" class="cls-3" d="M0,0H16V16H0Z"/>
+            <path id="Shape" class="cls-5" d="M9,1.9V1H6v.9H3V15h9V1.9Z"/>
+          </g>
+          <g id="Cellular" transform="translate(277 4)">
+            <path id="Bounds-5" data-name="Bounds" class="cls-3" d="M0,0H16V16H0Z"/>
+            <path id="Shape-2" data-name="Shape" class="cls-5" d="M0,15H14V1Z"/>
+          </g>
+          <g id="Wifi" transform="translate(256 4)">
+            <path id="Bounds-6" data-name="Bounds" class="cls-3" d="M2,0H18V16H2Z"/>
+            <path id="Shape-3" data-name="Shape" class="cls-5" d="M19,4a14.76,14.76,0,0,0-9-3A14.76,14.76,0,0,0,1,4l9,11Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Navbar">
+      <rect id="Navbar_bg" data-name="Navbar bg" width="360" height="48" transform="translate(0 592)"/>
+      <g id="Recent" transform="translate(231 592)">
+        <rect id="Bounds-7" data-name="Bounds" class="cls-3" width="100" height="48"/>
+        <path id="Recent-2" data-name="Recent" class="cls-9" d="M44,16H56a2.006,2.006,0,0,1,2,2V30a2.006,2.006,0,0,1-2,2H44a2.006,2.006,0,0,1-2-2V18A2.006,2.006,0,0,1,44,16Z"/>
+      </g>
+      <g id="Home" transform="translate(130 592)">
+        <rect id="Bounds-8" data-name="Bounds" class="cls-3" width="100" height="48"/>
+        <circle id="Home-2" data-name="Home" class="cls-9" cx="8" cy="8" r="8" transform="translate(42 16)"/>
+      </g>
+      <g id="Back" transform="translate(29 592)">
+        <rect id="Bounds-9" data-name="Bounds" class="cls-3" width="100" height="48"/>
+        <path id="Back-2" data-name="Back" class="cls-9" d="M56.3,15.2c1-.6,1.7-.1,1.7,1V30.7c0,1.1-.8,1.6-1.7,1L43.8,24.4c-1-.6-1-1.4,0-2Z"/>
+      </g>
+    </g>
+    <g id="Subheader" transform="translate(0 216)">
+      <rect id="Bounds-10" data-name="Bounds" class="cls-3" width="360" height="48" transform="translate(0 -136)"/>
+      <text id="Crear_configuración" data-name="Crear configuración" class="cls-10" transform="translate(16 -108)"><tspan x="0" y="0">Crear configuración</tspan></text>
+    </g>
+    <g id="Raised_Normal" data-name="Raised Normal" transform="translate(-129 464)">
+      <g id="Button_bg-7" data-name="Button bg" transform="translate(161 60)">
+        <g class="cls-41" transform="matrix(1, 0, 0, 1, -32, -524)">
+          <path id="Button_bg-8" data-name="Button bg" class="cls-11" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(32 524)"/>
+        </g>
+        <g class="cls-40" transform="matrix(1, 0, 0, 1, -32, -524)">
+          <path id="Button_bg-9" data-name="Button bg" class="cls-11" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(32 524)"/>
+        </g>
+      </g>
+      <text id="CANCELAR" class="cls-12" transform="translate(205.443 83)"><tspan x="-34.653" y="0">CANCELAR</tspan></text>
+    </g>
+    <g id="Raised_Normal-2" data-name="Raised Normal" transform="translate(83 464)">
+      <g id="Button_bg-10" data-name="Button bg" transform="translate(161 60)">
+        <g class="cls-39" transform="matrix(1, 0, 0, 1, -244, -524)">
+          <path id="Button_bg-11" data-name="Button bg" class="cls-11" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(244 524)"/>
+        </g>
+        <g class="cls-38" transform="matrix(1, 0, 0, 1, -244, -524)">
+          <path id="Button_bg-12" data-name="Button bg" class="cls-11" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(244 524)"/>
+        </g>
+      </g>
+      <text id="ACEPTAR" class="cls-12" transform="translate(205.443 83)"><tspan x="-28.485" y="0">ACEPTAR</tspan></text>
+    </g>
+    <g id="Button" transform="translate(96 444)">
+      <g id="Button_bg-13" data-name="Button bg" transform="translate(180)">
+        <g class="cls-37" transform="matrix(1, 0, 0, 1, -276, -444)">
+          <circle id="Button_bg-14" data-name="Button bg" class="cls-13" cx="28" cy="28" r="28" transform="translate(276 444)"/>
+        </g>
+        <g class="cls-36" transform="matrix(1, 0, 0, 1, -276, -444)">
+          <circle id="Button_bg-15" data-name="Button bg" class="cls-13" cx="28" cy="28" r="28" transform="translate(276 444)"/>
+        </g>
+      </g>
+      <g id="Add_Icon" data-name="Add Icon" transform="translate(196 16)">
+        <rect id="Bounds-11" data-name="Bounds" class="cls-3" width="24" height="24"/>
+        <path id="Icon-2" data-name="Icon" class="cls-5" d="M11,5v6H5v2h6v6h2V13h6V11H13V5Z"/>
+      </g>
+    </g>
+    <g id="Card_2" data-name="Card #2" transform="translate(8 128)">
+      <g id="Card_bg-3" data-name="Card bg">
+        <g class="cls-35" transform="matrix(1, 0, 0, 1, -8, -128)">
+          <path id="Card_bg-4" data-name="Card bg" class="cls-14" d="M166,0H506c1.1,0,2,.509,2,1.13V139.048c0,.622-.9,1.13-2,1.13H166c-1.1,0-2-.509-2-1.13V1.13C164,.509,164.9,0,166,0Z" transform="translate(-156 128)"/>
+        </g>
+        <g class="cls-34" transform="matrix(1, 0, 0, 1, -8, -128)">
+          <path id="Card_bg-5" data-name="Card bg" class="cls-14" d="M166,0H506c1.1,0,2,.509,2,1.13V139.048c0,.622-.9,1.13-2,1.13H166c-1.1,0-2-.509-2-1.13V1.13C164,.509,164.9,0,166,0Z" transform="translate(-156 128)"/>
+        </g>
+      </g>
+      <text id="Hora_inicio" data-name="Hora inicio" class="cls-15" transform="translate(39 27)"><tspan x="0" y="0">Hora inicio</tspan></text>
+      <text id="Hora_final" data-name="Hora final" class="cls-15" transform="translate(229 27)"><tspan x="0" y="0">Hora final</tspan></text>
+      <text id="L" class="cls-16" transform="translate(58 110.035)"><tspan x="0" y="0">L</tspan></text>
+      <text id="HH:mm" class="cls-17" transform="translate(34 65.035)"><tspan x="0" y="0">HH:mm</tspan></text>
+      <text id="HH:mm-2" data-name="HH:mm" class="cls-17" transform="translate(227 65.035)"><tspan x="0" y="0">HH:mm</tspan></text>
+      <text id="M" class="cls-16" transform="translate(87 110.035)"><tspan x="0" y="0">M</tspan></text>
+      <text id="X" class="cls-16" transform="translate(125 110.035)"><tspan x="0" y="0">X</tspan></text>
+      <text id="J" class="cls-16" transform="translate(157 110.035)"><tspan x="0" y="0">J</tspan></text>
+      <text id="V" class="cls-16" transform="translate(184 110.035)"><tspan x="0" y="0">V</tspan></text>
+      <text id="S" class="cls-16" transform="translate(216 110.035)"><tspan x="0" y="0">S</tspan></text>
+      <text id="D" class="cls-16" transform="translate(247 110.035)"><tspan x="0" y="0">D</tspan></text>
+    </g>
+    <g id="Time_picker" data-name="Time picker" transform="translate(-18 15.5)">
+      <g id="Base-3" data-name="Base">
+        <g class="cls-33" transform="matrix(1, 0, 0, 1, 18, -15.5)">
+          <path id="Base-4" data-name="Base" class="cls-18" d="M74,96.5H322a2.006,2.006,0,0,1,2,2v413a2.006,2.006,0,0,1-2,2H74a2.006,2.006,0,0,1-2-2V98.5A2.006,2.006,0,0,1,74,96.5Z" transform="translate(-18 15.5)"/>
+        </g>
+        <g class="cls-32" transform="matrix(1, 0, 0, 1, 18, -15.5)">
+          <path id="Base-5" data-name="Base" class="cls-18" d="M74,96.5H322a2.006,2.006,0,0,1,2,2v413a2.006,2.006,0,0,1-2,2H74a2.006,2.006,0,0,1-2-2V98.5A2.006,2.006,0,0,1,74,96.5Z" transform="translate(-18 15.5)"/>
+        </g>
+      </g>
+      <g id="Buttons" transform="translate(0 365)">
+        <g class="cls-31" transform="matrix(1, 0, 0, 1, 18, -380.5)">
+          <rect id="Button_strip_bounds-2" data-name="Button strip bounds" class="cls-19" width="252" height="52" transform="translate(54 477)"/>
+        </g>
+        <g id="Accept" transform="translate(85 8)">
+          <path id="Button_bounds" data-name="Button bounds" class="cls-3" d="M74,96.5h78a2.006,2.006,0,0,1,2,2v32a2.006,2.006,0,0,1-2,2H74a2.006,2.006,0,0,1-2-2v-32A2.006,2.006,0,0,1,74,96.5Z"/>
+          <text id="DONE" class="cls-20" transform="translate(113.166 119.5)"><tspan x="-19.068" y="0">DONE</tspan></text>
+        </g>
+      </g>
+      <g id="PM" transform="translate(194 308)">
+        <circle id="Oval" class="cls-5" cx="21" cy="21" r="21" transform="translate(72 96.5)"/>
+        <text id="PM-2" data-name="PM" class="cls-21" transform="translate(81 122.5)"><tspan x="0" y="0">PM</tspan></text>
+      </g>
+      <g id="AM" transform="translate(16 307)">
+        <circle id="Oval-2" data-name="Oval" class="cls-22" cx="21" cy="21" r="21" transform="translate(72 96.5)"/>
+        <text id="AM-2" data-name="AM" class="cls-21" transform="translate(81 122.5)"><tspan x="0" y="0">AM</tspan></text>
+      </g>
+      <g id="Clock_Components" data-name="Clock Components" transform="translate(16 100)">
+        <circle id="Clock_Background" data-name="Clock Background" class="cls-5" cx="110" cy="110" r="110" transform="translate(72 96.5)"/>
+        <circle id="Oval-3" data-name="Oval" class="cls-22" cx="17.5" cy="17.5" r="17.5" transform="translate(245 216.5)"/>
+        <circle id="Oval-4" data-name="Oval" class="cls-23" cx="4.5" cy="4.5" r="4.5" transform="translate(258 229.5)"/>
+        <path id="Divider" class="cls-24" d="M182,206.7l80.2,26.9"/>
+        <circle id="Centerpoint" class="cls-25" cx="1" cy="1" r="1" transform="translate(181 205.5)"/>
+      </g>
+      <g id="Times_Black" data-name="Times Black" class="cls-26" transform="translate(32.5 114.5)">
+        <text id="_55" data-name="55" class="cls-27" transform="translate(113.279 126.238)"><tspan x="0" y="0">55</tspan></text>
+        <text id="_50" data-name="50" class="cls-27" transform="translate(82.864 156.783)"><tspan x="0" y="0">50</tspan></text>
+        <text id="_45" data-name="45" class="cls-27" transform="translate(72.331 197.861)"><tspan x="0" y="0">45</tspan></text>
+        <text id="_40" data-name="40" class="cls-27" transform="translate(82.864 239.992)"><tspan x="0" y="0">40</tspan></text>
+        <text id="_35" data-name="35" class="cls-27" transform="translate(113.409 269.483)"><tspan x="0" y="0">35</tspan></text>
+        <text id="_30" data-name="30" class="cls-27" transform="translate(154.486 281.069)"><tspan x="0" y="0">30</tspan></text>
+        <text id="_25" data-name="25" class="cls-27" transform="translate(195.564 269.483)"><tspan x="0" y="0">25</tspan></text>
+        <text id="_20" data-name="20" class="cls-27" transform="translate(226.109 239.992)"><tspan x="0" y="0">20</tspan></text>
+        <text id="_15" data-name="15" class="cls-27" transform="translate(236.642 197.861)"><tspan x="0" y="0">15</tspan></text>
+        <text id="_10" data-name="10" class="cls-27" transform="translate(226.109 156.783)"><tspan x="0" y="0">10</tspan></text>
+        <text id="_05" data-name="05" class="cls-27" transform="translate(195.564 126.238)"><tspan x="0" y="0">05</tspan></text>
+        <text id="_00" data-name="00" class="cls-27" transform="translate(154.486 114.652)"><tspan x="0" y="0">00</tspan></text>
+      </g>
+      <g id="Header">
+        <rect id="Header_bg" data-name="Header bg" class="cls-5" width="252" height="84" transform="translate(72 96.5)"/>
+        <text id="AM-3" data-name="AM" class="cls-28" transform="translate(264 159.5)"><tspan x="0" y="0">AM</tspan></text>
+        <text id="_30-2" data-name="30" class="cls-29" transform="translate(194.181 159.5)"><tspan x="0" y="0">30</tspan></text>
+        <text id="_13:" data-name="13:" class="cls-30" transform="translate(111 159.5)"><tspan x="0" y="0">13:</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

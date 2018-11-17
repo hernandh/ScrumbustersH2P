@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 640">
+  <defs>
+    <style>
+      .cls-1, .cls-11 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Estadísticas);
+      }
+
+      .cls-3 {
+        fill: #673ab7;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-10, .cls-12, .cls-15, .cls-18, .cls-4, .cls-8, .cls-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-6 {
+        fill: #512da8;
+      }
+
+      .cls-7 {
+        opacity: 0.9;
+      }
+
+      .cls-10, .cls-12, .cls-15, .cls-8, .cls-9 {
+        font-size: 14px;
+      }
+
+      .cls-9 {
+        fill: rgba(255,255,255,0.7);
+      }
+
+      .cls-10, .cls-9 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-11 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-12 {
+        fill: rgba(0,0,0,0.54);
+      }
+
+      .cls-13 {
+        opacity: 0.1;
+      }
+
+      .cls-14 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-15, .cls-18 {
+        fill: rgba(0,0,0,0.87);
+        letter-spacing: 0.017em;
+      }
+
+      .cls-16 {
+        opacity: 0.5;
+      }
+
+      .cls-17 {
+        opacity: 0.995;
+      }
+
+      .cls-18 {
+        font-size: 12px;
+      }
+
+      .cls-19 {
+        filter: url(#Cards_Elements_Surface_Filled_Resting_1dp-2);
+      }
+
+      .cls-20 {
+        filter: url(#Cards_Elements_Surface_Filled_Resting_1dp);
+      }
+
+      .cls-21 {
+        filter: url(#Tool_bar_bg-2);
+      }
+
+      .cls-22 {
+        filter: url(#Tool_bar_bg);
+      }
+    </style>
+    <filter id="Tool_bar_bg" x="-6" y="-6" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tool_bar_bg-2" x="-6" y="-2" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Cards_Elements_Surface_Filled_Resting_1dp" x="65.5" y="129.5" width="137" height="196" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="128" height="129"/>
+    </clipPath>
+    <filter id="Cards_Elements_Surface_Filled_Resting_1dp-2" x="223.5" y="129.5" width="137" height="196" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Estadísticas">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="Estadísticas" class="cls-2">
+    <rect class="cls-5" width="360" height="640"/>
+    <g id="_1" data-name="#1">
+      <g id="Tool_bar" data-name="Tool bar">
+        <g id="Tool_bar_bg-3" data-name="Tool bar bg">
+          <g class="cls-22" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-4" data-name="Tool bar bg" class="cls-3" d="M360,0H0V80H360Z"/>
+          </g>
+          <g class="cls-21" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-5" data-name="Tool bar bg" class="cls-3" d="M360,0H0V80H360Z"/>
+          </g>
+        </g>
+        <g id="Tool_bar_contents" data-name="Tool bar contents" transform="translate(16 40)">
+          <path id="Bounds" class="cls-1" d="M360,0H0V56H360Z" transform="translate(-16 -16)"/>
+          <text id="NombreApp" class="cls-4" transform="translate(56 19)"><tspan x="0" y="0">NombreApp</tspan></text>
+          <g id="Burger_Button" data-name="Burger Button" transform="translate(0 -1)">
+            <rect id="Bounds-2" data-name="Bounds" class="cls-1" width="24" height="24"/>
+            <path id="Icon" class="cls-5" d="M3,18H21V16H3v2Zm0-5H21V11H3v2ZM3,6V8H21V6Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="Status_bar" data-name="Status bar">
+        <rect id="Status_bar_bg" data-name="Status bar bg" class="cls-6" width="360" height="24"/>
+        <g id="Status_bar-2" data-name="Status bar">
+          <rect id="Bounds-3" data-name="Bounds" class="cls-1" width="118" height="24" transform="translate(242)"/>
+          <g id="Time" class="cls-7" transform="translate(316 4)">
+            <text id="_12:30" data-name="12:30" class="cls-8" transform="translate(0.46 13)"><tspan x="0" y="0">12:30</tspan></text>
+          </g>
+          <g id="Battery" transform="translate(297 4)">
+            <path id="Bounds-4" data-name="Bounds" class="cls-1" d="M0,0H16V16H0Z"/>
+            <path id="Shape" class="cls-5" d="M9,1.9V1H6v.9H3V15h9V1.9Z"/>
+          </g>
+          <g id="Cellular" transform="translate(277 4)">
+            <path id="Bounds-5" data-name="Bounds" class="cls-1" d="M0,0H16V16H0Z"/>
+            <path id="Shape-2" data-name="Shape" class="cls-5" d="M0,15H14V1Z"/>
+          </g>
+          <g id="Wifi" transform="translate(256 4)">
+            <path id="Bounds-6" data-name="Bounds" class="cls-1" d="M2,0H18V16H2Z"/>
+            <path id="Shape-3" data-name="Shape" class="cls-5" d="M19,4a14.76,14.76,0,0,0-9-3A14.76,14.76,0,0,0,1,4l9,11Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="_1-2" data-name="#1" transform="translate(0 80)">
+      <rect id="Bounds-7" data-name="Bounds" class="cls-3" width="360" height="48"/>
+      <text id="LOCAL" class="cls-9" transform="translate(163.958 30)"><tspan x="-20.757" y="0">LOCAL</tspan></text>
+      <text id="PERSONAL" class="cls-10" transform="translate(60.285 30)"><tspan x="-34.181" y="0">PERSONAL</tspan></text>
+      <rect id="Indicator" class="cls-5" width="120" height="2" transform="translate(0 46)"/>
+      <text id="NACIONAL" class="cls-9" transform="translate(241.958 30)"><tspan x="-34.625" y="0">NACIONAL</tspan></text>
+    </g>
+    <g id="Navbar">
+      <rect id="Navbar_bg" data-name="Navbar bg" width="360" height="48" transform="translate(0 592)"/>
+      <g id="Recent" transform="translate(231 592)">
+        <rect id="Bounds-8" data-name="Bounds" class="cls-1" width="100" height="48"/>
+        <path id="Recent-2" data-name="Recent" class="cls-11" d="M44,16H56a2.006,2.006,0,0,1,2,2V30a2.006,2.006,0,0,1-2,2H44a2.006,2.006,0,0,1-2-2V18A2.006,2.006,0,0,1,44,16Z"/>
+      </g>
+      <g id="Home" transform="translate(130 592)">
+        <rect id="Bounds-9" data-name="Bounds" class="cls-1" width="100" height="48"/>
+        <circle id="Home-2" data-name="Home" class="cls-11" cx="8" cy="8" r="8" transform="translate(42 16)"/>
+      </g>
+      <g id="Back" transform="translate(29 592)">
+        <rect id="Bounds-10" data-name="Bounds" class="cls-1" width="100" height="48"/>
+        <path id="Back-2" data-name="Back" class="cls-11" d="M56.3,15.2c1-.6,1.7-.1,1.7,1V30.7c0,1.1-.8,1.6-1.7,1L43.8,24.4c-1-.6-1-1.4,0-2Z"/>
+      </g>
+    </g>
+    <text id="GLOBAL" class="cls-9" transform="translate(318.958 110)"><tspan x="-25.308" y="0">GLOBAL</tspan></text>
+    <g id="Subheader" transform="translate(-12 269)">
+      <rect id="Bounds-11" data-name="Bounds" class="cls-1" width="360" height="48" transform="translate(0 -136)"/>
+      <text id="Comparar" class="cls-12" transform="translate(16 -108)"><tspan x="0" y="0">Comparar</tspan></text>
+    </g>
+    <g id="Menu_Editable" data-name="Menu / Editable" transform="translate(-162 -868)">
+      <g class="cls-20" transform="matrix(1, 0, 0, 1, 162, 868)">
+        <rect id="Cards_Elements_Surface_Filled_Resting_1dp-3" data-name="Cards / Elements / Surface / Filled / Resting / 1dp" class="cls-5" width="128" height="187" rx="4" transform="translate(70 133)"/>
+      </g>
+      <path id="Cards_Elements_Surface_Filled_Resting_1dp-4" data-name="Cards / Elements / Surface / Filled / Resting / 1dp" class="cls-5" d="M0,0H128a0,0,0,0,1,0,0V140a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z" transform="translate(232 1044)"/>
+      <rect id="Box" class="cls-13" width="128" height="32" transform="translate(232 1116)"/>
+      <g id="Repeat_Grid_7" data-name="Repeat Grid 7" class="cls-14" transform="translate(232 1052)">
+        <g transform="translate(-736 -366)">
+          <g id="List_Single_Line_Text_Body_2" data-name="List / Single Line / Text / Body 2">
+            <text id="Mes_anterior" data-name="Mes anterior" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Mes anterior</tspan></text>
+            <rect id="Box-2" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -334)">
+          <g id="List_Single_Line_Text_Body_2-2" data-name="List / Single Line / Text / Body 2">
+            <text id="Trimestre_anterior" data-name="Trimestre anterior" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Trimestre anterior</tspan></text>
+            <rect id="Box-3" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -302)">
+          <g id="List_Single_Line_Text_Body_2-3" data-name="List / Single Line / Text / Body 2">
+            <text id="Año_anterior" data-name="Año anterior" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Año anterior</tspan></text>
+            <rect id="Box-4" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -270)">
+          <g id="List_Single_Line_Text_Body_2-4" data-name="List / Single Line / Text / Body 2">
+            <text id="Hace_3_años" data-name="Hace 3 años" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Hace 3 años</tspan></text>
+            <rect id="Box-5" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -238)">
+          <g id="List_Single_Line_Text_Body_2-5" data-name="List / Single Line / Text / Body 2">
+            <text id="Body_2" data-name="Body 2" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Body 2</tspan></text>
+            <rect id="Box-6" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+      </g>
+      <text id="Este_mes" data-name="Este mes" class="cls-15" transform="translate(239.977 1029)"><tspan x="0" y="0">Este mes</tspan></text>
+      <g id="Icon_Arrow_Drop_Up_Filled" data-name="Icon / Arrow Drop Up / Filled" class="cls-16" transform="translate(-148)">
+        <rect id="Box-7" data-name="Box" class="cls-1" width="24" height="24" transform="translate(476 1012)"/>
+        <path id="Icon_Arrow_Drop_Down" data-name="Icon / Arrow Drop Down" class="cls-17" d="M111-20l5,5,5-5Z" transform="translate(604 1007) rotate(180)"/>
+      </g>
+      <rect id="Divider" class="cls-13" width="128" height="1" transform="translate(232 1044)"/>
+      <rect id="Divider-2" data-name="Divider" class="cls-13" width="1" height="43" transform="translate(316 1001)"/>
+    </g>
+    <text id="con" class="cls-12" transform="translate(202 163)"><tspan x="0" y="0">con</tspan></text>
+    <g id="Menu_Editable-2" data-name="Menu / Editable" transform="translate(-4 -868)">
+      <g class="cls-19" transform="matrix(1, 0, 0, 1, 4, 868)">
+        <rect id="Cards_Elements_Surface_Filled_Resting_1dp-5" data-name="Cards / Elements / Surface / Filled / Resting / 1dp" class="cls-5" width="128" height="187" rx="4" transform="translate(228 133)"/>
+      </g>
+      <path id="Cards_Elements_Surface_Filled_Resting_1dp-6" data-name="Cards / Elements / Surface / Filled / Resting / 1dp" class="cls-5" d="M0,0H128a0,0,0,0,1,0,0V140a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z" transform="translate(232 1044)"/>
+      <rect id="Box-8" data-name="Box" class="cls-13" width="128" height="32" transform="translate(232 1116)"/>
+      <g id="Repeat_Grid_7-2" data-name="Repeat Grid 7" class="cls-14" transform="translate(232 1052)">
+        <g transform="translate(-736 -366)">
+          <g id="List_Single_Line_Text_Body_2-6" data-name="List / Single Line / Text / Body 2">
+            <text id="Mes_anterior-2" data-name="Mes anterior" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Mes anterior</tspan></text>
+            <rect id="Box-9" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -334)">
+          <g id="List_Single_Line_Text_Body_2-7" data-name="List / Single Line / Text / Body 2">
+            <text id="Trimestre_anterior-2" data-name="Trimestre anterior" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Trimestre anterior</tspan></text>
+            <rect id="Box-10" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -302)">
+          <g id="List_Single_Line_Text_Body_2-8" data-name="List / Single Line / Text / Body 2">
+            <text id="Año_anterior-2" data-name="Año anterior" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Año anterior</tspan></text>
+            <rect id="Box-11" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -270)">
+          <g id="List_Single_Line_Text_Body_2-9" data-name="List / Single Line / Text / Body 2">
+            <text id="Hace_3_años-2" data-name="Hace 3 años" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Hace 3 años</tspan></text>
+            <rect id="Box-12" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+        <g transform="translate(-736 -238)">
+          <g id="List_Single_Line_Text_Body_2-10" data-name="List / Single Line / Text / Body 2">
+            <text id="Body_2-2" data-name="Body 2" class="cls-15" transform="translate(743.977 387)"><tspan x="0" y="0">Body 2</tspan></text>
+            <rect id="Box-13" data-name="Box" class="cls-1" width="128" height="32" transform="translate(736 366)"/>
+          </g>
+        </g>
+      </g>
+      <text id="Mes_anterior-3" data-name="Mes anterior" class="cls-18" transform="translate(239.977 1029)"><tspan x="0" y="0">Mes anterior</tspan></text>
+      <g id="Icon_Arrow_Drop_Up_Filled-2" data-name="Icon / Arrow Drop Up / Filled" class="cls-16" transform="translate(-148)">
+        <rect id="Box-14" data-name="Box" class="cls-1" width="24" height="24" transform="translate(476 1012)"/>
+        <path id="Icon_Arrow_Drop_Down-2" data-name="Icon / Arrow Drop Down" class="cls-17" d="M111-20l5,5,5-5Z" transform="translate(604 1007) rotate(180)"/>
+      </g>
+      <rect id="Divider-3" data-name="Divider" class="cls-13" width="128" height="1" transform="translate(232 1044)"/>
+      <rect id="Divider-4" data-name="Divider" class="cls-13" width="1" height="43" transform="translate(316 1001)"/>
+    </g>
+  </g>
+</svg>

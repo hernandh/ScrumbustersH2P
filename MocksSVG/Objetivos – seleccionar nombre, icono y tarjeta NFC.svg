@@ -1,0 +1,347 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 640">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Objetivos_seleccionar_nombre_icono_y_tarjeta_NFC);
+      }
+
+      .cls-3 {
+        fill: #673ab7;
+      }
+
+      .cls-4, .cls-5, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-10, .cls-11, .cls-13, .cls-14, .cls-16, .cls-18, .cls-19, .cls-4, .cls-8 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-6 {
+        fill: #512da8;
+      }
+
+      .cls-16, .cls-7 {
+        opacity: 0.9;
+      }
+
+      .cls-10, .cls-11, .cls-13, .cls-18, .cls-8 {
+        font-size: 14px;
+      }
+
+      .cls-9 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-10 {
+        fill: rgba(255,255,255,0.7);
+      }
+
+      .cls-10, .cls-18 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-11 {
+        fill: rgba(0,0,0,0.54);
+      }
+
+      .cls-12 {
+        fill: rgba(0,0,0,0.12);
+      }
+
+      .cls-13 {
+        fill: rgba(0,0,0,0.38);
+      }
+
+      .cls-14, .cls-16, .cls-18, .cls-19 {
+        fill: rgba(0,0,0,0.87);
+      }
+
+      .cls-14, .cls-16, .cls-19 {
+        font-size: 16px;
+      }
+
+      .cls-14 {
+        opacity: 0.51;
+      }
+
+      .cls-15 {
+        stroke: #707070;
+        fill: url(#pattern);
+      }
+
+      .cls-17 {
+        fill: #e0e0e0;
+      }
+
+      .cls-20 {
+        fill: rgba(0,0,0,0.2);
+      }
+
+      .cls-21 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-22 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-23 {
+        fill: url(#pattern-3);
+      }
+
+      .cls-24 {
+        stroke: none;
+      }
+
+      .cls-25 {
+        filter: url(#Base-2);
+      }
+
+      .cls-26 {
+        filter: url(#Base);
+      }
+
+      .cls-27 {
+        filter: url(#Button_bg-4);
+      }
+
+      .cls-28 {
+        filter: url(#Button_bg-3);
+      }
+
+      .cls-29 {
+        filter: url(#Button_bg-2);
+      }
+
+      .cls-30 {
+        filter: url(#Button_bg);
+      }
+
+      .cls-31 {
+        filter: url(#Tool_bar_bg-2);
+      }
+
+      .cls-32 {
+        filter: url(#Tool_bar_bg);
+      }
+    </style>
+    <filter id="Tool_bar_bg" x="-6" y="-6" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tool_bar_bg-2" x="-6" y="-2" width="372" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" width="1" height="1" viewBox="-12.578 -11.81 72.156 70.621">
+      <image preserveAspectRatio="xMidYMid slice" width="47" height="47" xlink:href="../../Downloads/icons8-xlarge-icons-filled-100.png"/>
+    </pattern>
+    <filter id="Button_bg" x="29" y="521" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-2" x="29" y="523" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-3" x="241" y="521" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-4" x="241" y="523" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base" x="4" y="251" width="352" height="298.205" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-7"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base-2" x="4" y="275" width="352" height="298.205" filterUnits="userSpaceOnUse">
+      <feOffset dy="24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-8"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="280" height="112"/>
+    </clipPath>
+    <pattern id="pattern-2" width="1" height="1" viewBox="-4.539 -5.882 49.078 49.078">
+      <image preserveAspectRatio="xMidYMid slice" width="40" height="40" xlink:href="../../Downloads/icons8-beach-umbrella-100.png"/>
+    </pattern>
+    <pattern id="pattern-3" width="1" height="1" viewBox="-8.769 -8.769 57.538 57.538">
+      <image preserveAspectRatio="xMidYMid slice" width="40" height="40" xlink:href="../../Downloads/icons8-business-100.png"/>
+    </pattern>
+    <clipPath id="clip-Objetivos_seleccionar_nombre_icono_y_tarjeta_NFC">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="Objetivos_seleccionar_nombre_icono_y_tarjeta_NFC" data-name="Objetivos – seleccionar nombre, icono y tarjeta NFC" class="cls-2">
+    <rect class="cls-5" width="360" height="640"/>
+    <g id="_1" data-name="#1">
+      <g id="Tool_bar" data-name="Tool bar">
+        <g id="Tool_bar_bg-3" data-name="Tool bar bg">
+          <g class="cls-32" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-4" data-name="Tool bar bg" class="cls-3" d="M360,0H0V80H360Z"/>
+          </g>
+          <g class="cls-31" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path id="Tool_bar_bg-5" data-name="Tool bar bg" class="cls-3" d="M360,0H0V80H360Z"/>
+          </g>
+        </g>
+        <g id="Tool_bar_contents" data-name="Tool bar contents" transform="translate(16 40)">
+          <path id="Bounds" class="cls-1" d="M360,0H0V56H360Z" transform="translate(-16 -16)"/>
+          <text id="NombreApp" class="cls-4" transform="translate(56 19)"><tspan x="0" y="0">NombreApp</tspan></text>
+          <g id="Burger_Button" data-name="Burger Button" transform="translate(0 -1)">
+            <rect id="Bounds-2" data-name="Bounds" class="cls-1" width="24" height="24"/>
+            <path id="Icon" class="cls-5" d="M3,18H21V16H3v2Zm0-5H21V11H3v2ZM3,6V8H21V6Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="Status_bar" data-name="Status bar">
+        <rect id="Status_bar_bg" data-name="Status bar bg" class="cls-6" width="360" height="24"/>
+        <g id="Status_bar-2" data-name="Status bar">
+          <rect id="Bounds-3" data-name="Bounds" class="cls-1" width="118" height="24" transform="translate(242)"/>
+          <g id="Time" class="cls-7" transform="translate(316 4)">
+            <text id="_12:30" data-name="12:30" class="cls-8" transform="translate(0.46 13)"><tspan x="0" y="0">12:30</tspan></text>
+          </g>
+          <g id="Battery" transform="translate(297 4)">
+            <path id="Bounds-4" data-name="Bounds" class="cls-1" d="M0,0H16V16H0Z"/>
+            <path id="Shape" class="cls-5" d="M9,1.9V1H6v.9H3V15h9V1.9Z"/>
+          </g>
+          <g id="Cellular" transform="translate(277 4)">
+            <path id="Bounds-5" data-name="Bounds" class="cls-1" d="M0,0H16V16H0Z"/>
+            <path id="Shape-2" data-name="Shape" class="cls-5" d="M0,15H14V1Z"/>
+          </g>
+          <g id="Wifi" transform="translate(256 4)">
+            <path id="Bounds-6" data-name="Bounds" class="cls-1" d="M2,0H18V16H2Z"/>
+            <path id="Shape-3" data-name="Shape" class="cls-5" d="M19,4a14.76,14.76,0,0,0-9-3A14.76,14.76,0,0,0,1,4l9,11Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Navbar">
+      <rect id="Navbar_bg" data-name="Navbar bg" width="360" height="48" transform="translate(0 592)"/>
+      <g id="Recent" transform="translate(231 592)">
+        <rect id="Bounds-7" data-name="Bounds" class="cls-1" width="100" height="48"/>
+        <path id="Recent-2" data-name="Recent" class="cls-9" d="M44,16H56a2.006,2.006,0,0,1,2,2V30a2.006,2.006,0,0,1-2,2H44a2.006,2.006,0,0,1-2-2V18A2.006,2.006,0,0,1,44,16Z"/>
+      </g>
+      <g id="Home" transform="translate(130 592)">
+        <rect id="Bounds-8" data-name="Bounds" class="cls-1" width="100" height="48"/>
+        <circle id="Home-2" data-name="Home" class="cls-9" cx="8" cy="8" r="8" transform="translate(42 16)"/>
+      </g>
+      <g id="Back" transform="translate(29 592)">
+        <rect id="Bounds-9" data-name="Bounds" class="cls-1" width="100" height="48"/>
+        <path id="Back-2" data-name="Back" class="cls-9" d="M56.3,15.2c1-.6,1.7-.1,1.7,1V30.7c0,1.1-.8,1.6-1.7,1L43.8,24.4c-1-.6-1-1.4,0-2Z"/>
+      </g>
+    </g>
+    <text id="GLOBAL" class="cls-10" transform="translate(318.958 110)"><tspan x="-25.308" y="0">GLOBAL</tspan></text>
+    <g id="Subheader" transform="translate(0 217)">
+      <rect id="Bounds-10" data-name="Bounds" class="cls-1" width="360" height="48" transform="translate(0 -136)"/>
+      <text id="Perfiles" class="cls-11" transform="translate(16 -108)"><tspan x="0" y="0">Perfiles</tspan></text>
+    </g>
+    <g id="_1-2" data-name="#1" transform="translate(17 122)">
+      <rect id="Row_bounds_" data-name="Row bounds " class="cls-1" width="360" height="88"/>
+      <path id="Divider" class="cls-12" d="M0,.44H350V0H0Z" transform="translate(3 106.559)"/>
+      <text id="Descripción" class="cls-13" transform="translate(19 82)"><tspan x="0" y="0">Descripción</tspan></text>
+      <text id="Nombre" class="cls-14" transform="translate(73 28)"><tspan x="0" y="0">Nombre</tspan></text>
+      <path id="Divider-2" data-name="Divider" class="cls-12" d="M0,0H138V1H0Z" transform="translate(73 34)"/>
+      <path id="Divider-3" data-name="Divider" class="cls-12" d="M0,.648H192V0H0Z" transform="translate(19 88.352)"/>
+    </g>
+    <g id="icons8-xlarge-icons-filled-100" class="cls-15" transform="translate(17 129)">
+      <ellipse class="cls-24" cx="23.5" cy="23" rx="23.5" ry="23"/>
+      <ellipse class="cls-1" cx="23.5" cy="23" rx="23" ry="22.5"/>
+    </g>
+    <text id="Tarjeta_NFC_asociada" data-name="Tarjeta NFC asociada" class="cls-16" transform="translate(17 275)"><tspan x="0" y="0">Tarjeta NFC asociada</tspan></text>
+    <g id="Raised_Normal" data-name="Raised Normal" transform="translate(-129 464)">
+      <g id="Button_bg-5" data-name="Button bg" transform="translate(161 60)">
+        <g class="cls-30" transform="matrix(1, 0, 0, 1, -32, -524)">
+          <path id="Button_bg-6" data-name="Button bg" class="cls-17" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(32 524)"/>
+        </g>
+        <g class="cls-29" transform="matrix(1, 0, 0, 1, -32, -524)">
+          <path id="Button_bg-7" data-name="Button bg" class="cls-17" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(32 524)"/>
+        </g>
+      </g>
+      <text id="CANCELAR" class="cls-18" transform="translate(205.443 83)"><tspan x="-34.653" y="0">CANCELAR</tspan></text>
+    </g>
+    <g id="Raised_Normal-2" data-name="Raised Normal" transform="translate(83 464)">
+      <g id="Button_bg-8" data-name="Button bg" transform="translate(161 60)">
+        <g class="cls-28" transform="matrix(1, 0, 0, 1, -244, -524)">
+          <path id="Button_bg-9" data-name="Button bg" class="cls-17" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(244 524)"/>
+        </g>
+        <g class="cls-27" transform="matrix(1, 0, 0, 1, -244, -524)">
+          <path id="Button_bg-10" data-name="Button bg" class="cls-17" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(244 524)"/>
+        </g>
+      </g>
+      <text id="ACEPTAR" class="cls-18" transform="translate(205.443 83)"><tspan x="-28.485" y="0">ACEPTAR</tspan></text>
+    </g>
+    <g id="Base-3" data-name="Base" transform="translate(40 287)">
+      <g class="cls-26" transform="matrix(1, 0, 0, 1, -40, -287)">
+        <path id="Base-4" data-name="Base" class="cls-1" d="M2,0H278a1.9,1.9,0,0,1,2,1.767V224.438a1.9,1.9,0,0,1-2,1.767H2a1.9,1.9,0,0,1-2-1.767V1.767A1.9,1.9,0,0,1,2,0Z" transform="translate(40 287)"/>
+      </g>
+      <g class="cls-25" transform="matrix(1, 0, 0, 1, -40, -287)">
+        <path id="Base-5" data-name="Base" class="cls-1" d="M2,0H278a1.9,1.9,0,0,1,2,1.767V224.438a1.9,1.9,0,0,1-2,1.767H2a1.9,1.9,0,0,1-2-1.767V1.767A1.9,1.9,0,0,1,2,0Z" transform="translate(40 287)"/>
+      </g>
+    </g>
+    <g id="Buttons" transform="translate(-60 523)">
+      <rect id="Button_strip_bounds" data-name="Button strip bounds" class="cls-1" width="280" height="52" transform="translate(100)"/>
+    </g>
+    <g id="Row" transform="translate(-83 409)">
+      <rect id="Bounds-11" data-name="Bounds" class="cls-1" width="280" height="56" transform="translate(100)"/>
+      <text id="Añadir_tarjeta_NFC" data-name="Añadir tarjeta NFC" class="cls-19" transform="translate(179 33)"><tspan x="0" y="0">Añadir tarjeta NFC</tspan></text>
+      <g id="Button">
+        <circle id="Oval" class="cls-20" cx="20" cy="20" r="20" transform="translate(124 8)"/>
+        <g id="Add_Icon" data-name="Add Icon" transform="translate(32 17)">
+          <path id="Bounds-12" data-name="Bounds" class="cls-1" d="M100,0h24V24H100Z"/>
+          <path id="Icon-2" data-name="Icon" class="cls-5" d="M119,12h-6v6h-2V12h-6V10h6V4h2v6h6Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="List" class="cls-21" transform="translate(17 297)">
+      <g id="Group_1104" data-name="Group 1104" transform="translate(-100 -60)">
+        <g id="Row-2" data-name="Row" transform="translate(0 116)">
+          <rect id="Bounds-13" data-name="Bounds" class="cls-1" width="280" height="56" transform="translate(100)"/>
+          <text id="Vacaciones" class="cls-19" transform="translate(179 33)"><tspan x="0" y="0">Vacaciones</tspan></text>
+          <g id="Userpic" transform="translate(19 5)">
+            <circle id="Mask" class="cls-22" cx="20" cy="20" r="20" transform="translate(105 3)"/>
+          </g>
+        </g>
+        <g id="Row-3" data-name="Row" transform="translate(0 60)">
+          <rect id="Bounds-14" data-name="Bounds" class="cls-1" width="280" height="56" transform="translate(100)"/>
+          <text id="Ir_al_trabajo" data-name="Ir al trabajo" class="cls-19" transform="translate(179 33)"><tspan x="0" y="0">Ir al trabajo</tspan></text>
+          <circle id="Userpic-2" data-name="Userpic" class="cls-23" cx="20" cy="20" r="20" transform="translate(124 8)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

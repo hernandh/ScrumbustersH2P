@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 640">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,87,34,0.24);
+      }
+
+      .cls-2, .cls-8 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-Bienvenida_cuenta_google);
+      }
+
+      .cls-4 {
+        opacity: 0.8;
+        fill: url(#pattern);
+      }
+
+      .cls-13, .cls-20, .cls-5, .cls-7 {
+        fill: rgba(0,0,0,0.87);
+      }
+
+      .cls-5 {
+        font-size: 40px;
+      }
+
+      .cls-5, .cls-7 {
+        font-family: SegoeUI-Light, Segoe UI;
+        font-weight: 300;
+        letter-spacing: -0.016em;
+      }
+
+      .cls-6 {
+        opacity: 0.68;
+      }
+
+      .cls-13, .cls-7 {
+        font-size: 16px;
+      }
+
+      .cls-8 {
+        stroke: #707070;
+        opacity: 0.5;
+      }
+
+      .cls-9 {
+        fill: rgba(0,55,237,0.64);
+      }
+
+      .cls-10, .cls-11, .cls-15 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-12 {
+        font-size: 14px;
+      }
+
+      .cls-10, .cls-12, .cls-13, .cls-20 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.089em;
+      }
+
+      .cls-11 {
+        stroke: rgba(255,255,255,0.8);
+        stroke-width: 0.5px;
+      }
+
+      .cls-12 {
+        fill: #673ab7;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-14 {
+        fill: rgba(0,0,0,0.2);
+      }
+
+      .cls-16 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-17 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-18 {
+        fill: #ff5722;
+      }
+
+      .cls-19 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-20 {
+        font-size: 20px;
+      }
+
+      .cls-21 {
+        filter: url(#Base-2);
+      }
+
+      .cls-22 {
+        filter: url(#Base);
+      }
+
+      .cls-23 {
+        filter: url(#Rectangle_377);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 810 540">
+      <image width="810" height="540" xlink:href="Foto%20fondo.jpg"/>
+    </pattern>
+    <filter id="Rectangle_377" x="77.5" y="558.5" width="205" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base" x="3.75" y="175.75" width="352.5" height="360.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-2"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base-2" x="3.75" y="199.75" width="352.5" height="360.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect class="cls-2" width="280" height="112"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Mask" class="cls-1" cx="20" cy="20" r="20" transform="translate(105 3)"/>
+    </clipPath>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 40 40">
+      <image width="40" height="40" xlink:href="Bienvenida,%20cuenta%20google-image.png"/>
+    </pattern>
+    <clipPath id="clip-Bienvenida_cuenta_google">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="Bienvenida_cuenta_google" data-name="Bienvenida, cuenta google" class="cls-3">
+    <rect class="cls-15" width="360" height="640"/>
+    <rect id="Foto_fondo" data-name="Foto fondo" class="cls-4" width="886" height="645" transform="translate(-274)"/>
+    <g id="_Text_H1_Selected_On_Surface_High_Emphasis_Left" data-name="✱ / Text / H1 / Selected / On Surface / High Emphasis / Left" transform="translate(-98 -849)">
+      <text id="_Text_H1_Selected_On_Surface_High_Emphasis_Left-2" data-name="✱ / Text / H1 / Selected / On Surface / High Emphasis / Left" class="cls-5" transform="translate(140 1004)"><tspan x="0" y="0">¡Bienvenido a … !</tspan></text>
+    </g>
+    <g id="_Text_H1_Selected_On_Surface_High_Emphasis_Left-3" data-name="✱ / Text / H1 / Selected / On Surface / High Emphasis / Left" class="cls-6" transform="translate(-45 -652)">
+      <text id="_Text_H1_Selected_On_Surface_High_Emphasis_Left-4" data-name="✱ / Text / H1 / Selected / On Surface / High Emphasis / Left" class="cls-7" transform="translate(140 1004)"><tspan x="0" y="0">Introduce tu código postal</tspan></text>
+    </g>
+    <line id="Line_1" data-name="Line 1" class="cls-8" y1="1" x2="217" transform="translate(72.5 355.5)"/>
+    <g id="Buttons_Contained_Enabled" data-name="Buttons / Contained / Enabled" transform="translate(9 166)">
+      <g class="cls-23" transform="matrix(1, 0, 0, 1, -9, -166)">
+        <rect id="Rectangle_377-2" data-name="Rectangle 377" class="cls-9" width="196" height="32" rx="4" transform="translate(82 562)"/>
+      </g>
+      <text id="Conectar_con_Google" data-name="Conectar con Google" class="cls-10" transform="translate(96 417)"><tspan x="0" y="0">Conectar con Google</tspan></text>
+    </g>
+    <g id="Dialog" transform="translate(-60 212)">
+      <g id="Base-3" data-name="Base" transform="translate(100)">
+        <g class="cls-22" transform="matrix(1, 0, 0, 1, -40, -212)">
+          <path id="Base-4" data-name="Base" class="cls-11" d="M2,0H278a2.142,2.142,0,0,1,2,2.25v283.5a2.142,2.142,0,0,1-2,2.25H2a2.142,2.142,0,0,1-2-2.25V2.25A2.142,2.142,0,0,1,2,0Z" transform="translate(40 212)"/>
+        </g>
+        <g class="cls-21" transform="matrix(1, 0, 0, 1, -40, -212)">
+          <path id="Base-5" data-name="Base" class="cls-11" d="M2,0H278a2.142,2.142,0,0,1,2,2.25v283.5a2.142,2.142,0,0,1-2,2.25H2a2.142,2.142,0,0,1-2-2.25V2.25A2.142,2.142,0,0,1,2,0Z" transform="translate(40 212)"/>
+        </g>
+      </g>
+      <g id="Buttons" transform="translate(0 236)">
+        <rect id="Button_strip_bounds" data-name="Button strip bounds" class="cls-2" width="280" height="52" transform="translate(100)"/>
+        <g id="Accept" transform="translate(198 8)">
+          <path id="Button_bounds" data-name="Button bounds" class="cls-2" d="M102,0h70a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H102a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,102,0Z"/>
+          <text id="CANCEL" class="cls-12" transform="translate(135.987 24)"><tspan x="-25.43" y="0">CANCEL</tspan></text>
+        </g>
+      </g>
+      <g id="Row" transform="translate(0 172)">
+        <rect id="Bounds" class="cls-2" width="280" height="56" transform="translate(100)"/>
+        <text id="add_email" data-name="add email" class="cls-13" transform="translate(179 33)"><tspan x="0" y="0">add email</tspan></text>
+        <g id="Button">
+          <circle id="Oval" class="cls-14" cx="20" cy="20" r="20" transform="translate(124 8)"/>
+          <g id="Add_Icon" data-name="Add Icon" transform="translate(32 17)">
+            <path id="Bounds-2" data-name="Bounds" class="cls-2" d="M100,0h24V24H100Z"/>
+            <path id="Icon" class="cls-15" d="M119,12h-6v6h-2V12h-6V10h6V4h2v6h6Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="List" class="cls-16" transform="translate(100 60)">
+        <g id="Group" transform="translate(-100 -60)">
+          <g id="Row-2" data-name="Row" transform="translate(0 116)">
+            <rect id="Bounds-3" data-name="Bounds" class="cls-2" width="280" height="56" transform="translate(100)"/>
+            <text id="gibson_reva_ratke.org" data-name="gibson_reva@ratke.org" class="cls-13" transform="translate(179 33)"><tspan x="0" y="0">gibson_reva@ratke.org</tspan></text>
+            <g id="Userpic" transform="translate(19 5)">
+              <circle id="Mask-2" data-name="Mask" class="cls-1" cx="20" cy="20" r="20" transform="translate(105 3)"/>
+              <g id="Icon-2" data-name="Icon" class="cls-17">
+                <path id="Icon-3" data-name="Icon" class="cls-18" d="M131.1,19.4a6.1,6.1,0,1,1-6.1-6.1A6,6,0,0,1,131.1,19.4ZM112.8,35.7c0-4.1,8.2-6.3,12.2-6.3,4.1,0,12.2,2.2,12.2,6.3V48H112.7V35.7Z"/>
+              </g>
+            </g>
+          </g>
+          <g id="Row-3" data-name="Row" transform="translate(0 60)">
+            <rect id="Bounds-4" data-name="Bounds" class="cls-2" width="280" height="56" transform="translate(100)"/>
+            <text id="mann.peter_yahoo.com" data-name="mann.peter@yahoo.com" class="cls-13" transform="translate(179 33)"><tspan x="0" y="0">mann.peter@yahoo.com</tspan></text>
+            <circle id="Userpic-2" data-name="Userpic" class="cls-19" cx="20" cy="20" r="20" transform="translate(124 8)"/>
+          </g>
+        </g>
+      </g>
+      <text id="Set_your_email_to_sign_in" data-name="Set your email to sign in" class="cls-20" transform="translate(124 40)"><tspan x="0" y="0">Set your email to sign in</tspan></text>
+    </g>
+  </g>
+</svg>
