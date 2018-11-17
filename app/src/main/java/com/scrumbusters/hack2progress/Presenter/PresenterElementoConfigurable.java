@@ -2,6 +2,7 @@ package com.scrumbusters.hack2progress.Presenter;
 
 import com.scrumbusters.hack2progress.Model.Bombilla;
 import com.scrumbusters.hack2progress.Model.Configuracion;
+import com.scrumbusters.hack2progress.Model.Dispositivo;
 import com.scrumbusters.hack2progress.Model.ElementoConfigurable;
 import com.scrumbusters.hack2progress.Model.Enchufe;
 import com.scrumbusters.hack2progress.Model.Grupo;
@@ -13,6 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 public class PresenterElementoConfigurable {
+    public enum EstadoDispositivo {APAGADO, STANDBY, ENCENDIDO}
     private Map<Integer, ElementoConfigurable> elementos;
 
     public PresenterElementoConfigurable(){
@@ -41,18 +43,37 @@ public class PresenterElementoConfigurable {
         }
     }
 
+    public EstadoDispositivo getEstadoDispositivo(ElementoConfigurable ec){
+        EstadoDispositivo estado;
+        if(!ec.isGroup()){
+            int intensity = ((Dispositivo) ec).readIntensity();
+            if(intensity < 5){
+                estado = EstadoDispositivo.APAGADO;
+            } else if (intensity < 7){
+                estado = EstadoDispositivo.STANDBY;
+            } else {
+                estado = EstadoDispositivo.ENCENDIDO;
+            }
+
+            return estado;
+        } else {
+            throw new InvalidParameterException("El elemento no es un dispositivo.");
+        }
+    }
+
     public void deleteElemento(int id){
         elementos.remove(id);
     }
 
     public void editElement(int id, String nombre, String icono, String descripcion, Grupo grupoPadre,
-                            boolean heredaConfiguracion){
+                            boolean heredaConfiguracion, Configuracion config){
         ElementoConfigurable ec = elementos.get(id);
         ec.setNombre(nombre);
         ec.setIcono(icono);
         ec.setDescripcion(descripcion);
         ec.setGrupoPadre(grupoPadre);
         ec.setHeredaConfiguracion(heredaConfiguracion);
+        ec.setConfig(config);
 
     }
 
