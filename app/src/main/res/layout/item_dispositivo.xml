@@ -17,17 +17,18 @@
         android:layout_height="wrap_content"
         android:paddingRight="10dp">
 
-        <ImageView
-            android:id="@+id/imageViewLogo"
+        <TextView
+            android:id="@+id/textViewNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="@dimen/marginTextView"
+            android:layout_marginTop="@dimen/marginLabelsPrecio"
+            android:textSize="8sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textViewRotulo"
+            android:id="@+id/textViewDescripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="false"

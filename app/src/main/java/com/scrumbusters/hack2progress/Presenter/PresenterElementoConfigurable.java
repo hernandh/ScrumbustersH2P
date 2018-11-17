@@ -21,8 +21,8 @@ public class PresenterElementoConfigurable {
         elementos = new HashMap<Integer, ElementoConfigurable>();
     }
 
-    public List<Grupo> getGruposRaiz(){
-        ArrayList<Grupo> gruposRaiz = new ArrayList<Grupo>();
+    public List<ElementoConfigurable> getGruposRaiz(){
+        ArrayList<ElementoConfigurable> gruposRaiz = new ArrayList<ElementoConfigurable>();
         for (ElementoConfigurable e : elementos.values()){
             Grupo padre = e.getGrupoPadre();
             if(padre == null){
