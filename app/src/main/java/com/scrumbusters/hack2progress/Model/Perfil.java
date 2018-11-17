@@ -28,4 +28,12 @@ public class Perfil {
     public void setCodigoTarjeta(String codigoTarjeta) {
         this.codigoTarjeta = codigoTarjeta;
     }
+
+    public void addElemento(ElementoConfigurable ele){
+        elementos.add(ele);
+    }
+
+    public void removeElemento (ElementoConfigurable ele){
+        elementos.remove(ele);
+    }
 }
