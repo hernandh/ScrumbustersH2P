@@ -41,18 +41,11 @@ public class PresenterConfiguraciones {
         configuraciones.remove(config);
     }
 
-    public void editarPlanningDays(Planning planning,List<String> dias){
+    public void editarPlanning(Planning planning,List<String> dias,Time horaEncendido,Time horaApagado) {
         planning.setDias(dias);
-    }
-
-    public void editarPlanningTurnOn(Planning planning,Time horaEncendido){
+        planning.setHoraApagado(horaApagado);
         planning.setHoraEncendido(horaEncendido);
     }
-
-    public void editarPlanningTurnOff(Planning planning,Time horaApagado){
-        planning.setHoraApagado(horaApagado);
-    }
-
     public void editarConfig(ConfiguracionPredefinida config,String name){
         config.setName(name);
     }
