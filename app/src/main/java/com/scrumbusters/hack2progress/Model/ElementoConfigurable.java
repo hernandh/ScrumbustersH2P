@@ -2,13 +2,14 @@ package com.scrumbusters.hack2progress.Model;
 
 public abstract class ElementoConfigurable {
     private static int nextIdNumber = 0;
-    private int id;
+    private final int id;
     private Grupo grupoPadre;
     private String nombre;
     private String descripcion;
     private String icono;
     private boolean heredaConfiguracion;
-    boolean isGroup;
+    protected boolean isGroup;
+
     private Configuracion config;
 
     public ElementoConfigurable(String nombre, String icono, String descripcion, Grupo grupoPadre,
@@ -70,5 +71,13 @@ public abstract class ElementoConfigurable {
 
     public void setHeredaConfiguracion(boolean heredaConfiguracion){
         this.heredaConfiguracion = heredaConfiguracion;
+    }
+
+    public Configuracion getConfig() {
+        return config;
+    }
+
+    public void setConfig(Configuracion config) {
+        this.config = config;
     }
 }
