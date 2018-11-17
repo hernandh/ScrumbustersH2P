@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item
+        android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/idEstadisticas"
+                android:title="Estadisticas" />
+            <item
+                android:id="@+id/idNavGrupos"
+                android:title="Grupos" />
+            <item
+                android:id="@+id/idNavPerfiles"
+                android:title="Perfiles" />
+        </menu>
+    </item>
+
+</menu>
