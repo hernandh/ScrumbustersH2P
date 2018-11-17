@@ -13,7 +13,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Model/Bombilla.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Model/Dispositivo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Model/ElementoConfigurable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Model/Enchufe.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Model/Grupo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Presenter/PresenterDispositivos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/scrumbusters/hack2progress/Views/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/UNI/PROYECTO/AndroidProject/app/src/main/java/com/isunican/proyectobase/Model/dataBase/AppDataBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/UNI/PROYECTO/AndroidProject/app/src/main/java/com/isunican/proyectobase/Presenter/PresenterGasolineras.java">
           <value>
             <set />
           </value>
